@@ -1321,6 +1321,32 @@ function exportShopData() {
   showToast("Backup exported");
 }
 
+function exportFullWebsiteData() {
+  const payload = {
+    app: "ubi-shop-full-website",
+    version: 1,
+    exportType: "publish-ready",
+    savedAt: new Date().toISOString(),
+    products,
+    customCategories,
+    deliverySettings,
+    siteSettings,
+    customText,
+    recentViews,
+    language: lang
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `ubi-shop-full-website-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+  showToast("Full website data exported");
+}
+
 function importShopData(event) {
   const file = event.target.files[0];
   if (!file) return;
@@ -1550,6 +1576,7 @@ $("#contentSettingsForm").addEventListener("submit", saveContentSettings);
 $("#siteHeroImage").addEventListener("change", previewSiteHeroImage);
 $("#deliverySettingsForm").addEventListener("submit", saveDeliverySettings);
 $("#exportData").addEventListener("click", exportShopData);
+$("#exportFullWebsite").addEventListener("click", exportFullWebsiteData);
 $("#importData").addEventListener("change", importShopData);
 $("#openCart").addEventListener("click", () => $("#cartDrawer").classList.add("open"));
 $("#closeCart").addEventListener("click", () => $("#cartDrawer").classList.remove("open"));
