@@ -1046,6 +1046,20 @@ body.dark .field-help.important {
   border-color: var(--lime);
 }
 
+.field-help.error {
+  display: none;
+  color: var(--danger);
+  font-weight: 800;
+}
+
+.field-help.error.show {
+  display: block;
+}
+
+.checkout-form input:invalid {
+  border-color: color-mix(in srgb, var(--danger) 72%, var(--line));
+}
+
 #customerDeliveryArea:disabled {
   appearance: none;
   -webkit-appearance: none;

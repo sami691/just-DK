@@ -184,7 +184,7 @@
       </div>
       <form class="checkout-form" id="checkoutForm">
         <label><span data-i18n="orderName">Name</span><input id="customerName" type="text" required></label>
-        <label><span data-i18n="orderPhone">Phone</span><input id="customerPhone" type="tel" required></label>
+        <label><span data-i18n="orderPhone">Phone</span><input id="customerPhone" type="tel" inputmode="numeric" minlength="11" maxlength="11" pattern="[0-9]{11}" required><small class="field-help error" id="phoneError" data-i18n="phoneError">Phone number must be exactly 11 digits.</small></label>
         <label><span data-i18n="orderDeliveryArea">Delivery area</span><select id="customerDeliveryArea" required></select></label>
         <label><span data-i18n="orderDistrict">District</span><select id="customerDistrict" required></select></label>
         <label><span data-i18n="orderUpazila">Upazila</span><select id="customerUpazila" required disabled></select></label>
