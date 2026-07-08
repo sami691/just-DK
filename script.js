@@ -870,6 +870,10 @@ function renderProductDetail(item) {
 }
 
 function renderRoute() {
+  if (location.hash === "#admin") {
+    openAdminPanel();
+    history.replaceState(null, "", "#home");
+  }
   const match = location.hash.match(/^#product-(\d+)/);
   const detailPage = $("#productDetailPage");
   const shopSections = [
@@ -1317,16 +1321,6 @@ function updateAdminDiscountNote() {
 }
 
 function openAdminPanel() {
-  if (sessionStorage.getItem("ubi-admin-unlocked") === "yes") {
-    $("#adminDialog").showModal();
-    return;
-  }
-  const value = prompt("Password");
-  if (value !== adminPassword) {
-    if (value !== null) showToast("Wrong password");
-    return;
-  }
-  sessionStorage.setItem("ubi-admin-unlocked", "yes");
   $("#adminDialog").showModal();
 }
 
@@ -1484,6 +1478,12 @@ $("#langToggle").addEventListener("click", () => {
 $("#themeToggle").addEventListener("click", () => document.body.classList.toggle("dark"));
 $("#openAdmin").addEventListener("click", openAdminPanel);
 $("#brandMark").addEventListener("click", handleBrandSecretTap);
+document.addEventListener("keydown", (event) => {
+  if (event.ctrlKey && event.altKey && event.key.toLowerCase() === "a") {
+    event.preventDefault();
+    openAdminPanel();
+  }
+});
 $("#closeAdmin").addEventListener("click", () => $("#adminDialog").close());
 $("#adminForm").addEventListener("submit", saveProduct);
 $("#adminReset").addEventListener("click", clearAdminForm);
