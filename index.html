@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ubi Shop</title>
+  <meta name="description" content="Ubi Shop - a bilingual mobile-friendly free online shop with WhatsApp checkout.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" id="brandMark">U</span>
+      <a href="#home" aria-label="Ubi Shop home">Ubi Shop</a>
+      <button class="secret-admin" id="openAdmin" type="button" aria-label="Store tools">•</button>
+    </div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#products" data-i18n="navProducts">Products</a>
+      <a href="#offers" data-i18n="navOffers">Offers</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-btn" id="langToggle" type="button" aria-label="Switch language">বাংলা</button>
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">◐</button>
+      <button class="cart-button wishlist-top" id="openWishlist" type="button">
+        <span data-i18n="wishlistTitle">Wishlist</span>
+        <strong id="wishlistCount">0</strong>
+      </button>
+      <button class="cart-button" id="openCart" type="button">
+        <span data-i18n="cart">Cart</span>
+        <strong id="cartCount">0</strong>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">Everything shop</p>
+        <h1 data-i18n="heroTitle">Ubi Shop</h1>
+        <p data-i18n="heroText">Daily essentials, fashion, gadgets, beauty and home items in one mobile-friendly shop.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#products" data-i18n="shopNow">Shop now</a>
+          <a class="secondary-btn" href="#contact" data-i18n="contactUs">Contact us</a>
+        </div>
+      </div>
+      <div class="hero-media" aria-label="Featured shop products">
+        <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=1200&q=80" alt="Shopping bags and lifestyle products">
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Shop benefits">
+      <span data-i18n="trustDelivery">Fast delivery</span>
+      <span data-i18n="trustCod">COD available</span>
+      <span data-i18n="trustChat">WhatsApp support</span>
+      <span data-i18n="trustReturn">Easy return</span>
+    </section>
+
+    <section class="section-head" id="offers">
+      <div>
+        <p class="eyebrow" data-i18n="offerEyebrow">Limited offer</p>
+        <h2 data-i18n="offerTitle">Flash deals for every basket</h2>
+      </div>
+      <div class="countdown" aria-label="Offer countdown">
+        <span id="countHours">04</span>:<span id="countMins">30</span>:<span id="countSecs">00</span>
+      </div>
+    </section>
+
+    <section class="deal-band">
+      <div>
+        <strong data-i18n="couponTitle">Have a coupon?</strong>
+        <p data-i18n="couponText">Enter your coupon code in the cart to get a discount.</p>
+      </div>
+      <button class="secondary-btn" id="applyCoupon" type="button" data-i18n="applyCoupon">Apply coupon</button>
+    </section>
+
+    <section class="featured-slider" id="featuredSliderWrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" data-i18n="featuredEyebrow">Trending now</p>
+          <h2 data-i18n="featuredTitle">Hot and popular picks</h2>
+        </div>
+        <div class="slider-controls">
+          <button class="icon-btn" id="prevFeatured" type="button" aria-label="Previous">‹</button>
+          <button class="icon-btn" id="nextFeatured" type="button" aria-label="Next">›</button>
+        </div>
+      </div>
+      <div class="featured-window">
+        <div class="featured-track" id="featuredTrack"></div>
+      </div>
+    </section>
+
+    <section class="shop-tools" id="products">
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Search products" aria-label="Search products">
+      </div>
+      <div class="tool-row">
+        <select id="categoryFilter" aria-label="Filter category"></select>
+        <select id="sortSelect" aria-label="Sort products">
+          <option value="featured" data-i18n="sortFeatured">Featured</option>
+          <option value="low" data-i18n="sortLow">Price: low to high</option>
+          <option value="high" data-i18n="sortHigh">Price: high to low</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="product-grid" id="productGrid" aria-live="polite"></section>
+
+    <section class="recent-section" id="recentSection" hidden>
+      <div class="section-head">
+        <div>
+          <p class="eyebrow" data-i18n="recentEyebrow">Recently viewed</p>
+          <h2 data-i18n="recentTitle">Pick up where you left off</h2>
+        </div>
+      </div>
+      <div class="recent-grid" id="recentGrid"></div>
+    </section>
+
+    <section class="product-detail-page" id="productDetailPage" hidden></section>
+
+    <section class="info-grid">
+      <article>
+        <h3 data-i18n="faqTitle">FAQ</h3>
+        <p data-i18n="faqText">Delivery charge depends on area. Order confirmation is handled through WhatsApp.</p>
+      </article>
+      <article>
+        <h3 data-i18n="policyTitle">Return policy</h3>
+        <p data-i18n="policyText">Please check items during delivery. Return requests are accepted within 24 hours.</p>
+      </article>
+      <article>
+        <h3 data-i18n="reviewTitle">Customer love</h3>
+        <p data-i18n="reviewText">Helpful support, quick replies, and practical prices for everyday shopping.</p>
+      </article>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <p class="eyebrow" data-i18n="contactEyebrow">Need help?</p>
+        <h2 data-i18n="contactTitle">Talk to Ubi Shop</h2>
+        <p data-i18n="contactText">Ask about products, delivery, bulk orders, or custom requests.</p>
+      </div>
+      <a class="primary-btn" id="whatsAppContact" href="#" target="_blank" rel="noreferrer" data-i18n="whatsAppUs">WhatsApp us</a>
+    </section>
+
+    <section class="follow-section" id="followSection" hidden>
+      <div>
+        <p class="eyebrow">Social</p>
+        <h2>Follow us</h2>
+      </div>
+      <div class="social-links" id="socialLinks" aria-label="Social links"></div>
+    </section>
+  </main>
+
+  <button class="float-whatsapp" id="floatWhatsApp" type="button" aria-label="WhatsApp">WA</button>
+
+  <aside class="drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <h2 data-i18n="yourCart">Your cart</h2>
+        <button class="icon-btn" id="closeCart" type="button" aria-label="Close cart">×</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="free-bar">
+        <div class="free-bar-track"><span id="freeProgress"></span></div>
+        <p id="freeText"></p>
+      </div>
+      <label class="coupon-box">
+        <span data-i18n="couponCode">Coupon code</span>
+        <input id="couponInput" type="text">
+        <small class="coupon-help" data-i18n="couponEligibleNote">Coupon works only on Eligible products.</small>
+        <button class="secondary-btn" id="applyCartCoupon" type="button" data-i18n="applyCoupon">Apply coupon</button>
+        <small id="couponStatus" class="coupon-status"></small>
+      </label>
+      <div class="totals">
+        <span data-i18n="subtotal">Subtotal</span>
+        <strong id="subtotal">৳0</strong>
+        <span data-i18n="discount">Discount</span>
+        <strong id="discount">৳0</strong>
+        <span data-i18n="delivery">Delivery</span>
+        <strong id="delivery">৳80</strong>
+        <span data-i18n="total">Total</span>
+        <strong id="total">৳0</strong>
+      </div>
+      <form class="checkout-form" id="checkoutForm">
+        <label><span data-i18n="orderName">Name</span><input id="customerName" type="text" required></label>
+        <label><span data-i18n="orderPhone">Phone</span><input id="customerPhone" type="tel" required></label>
+        <label><span data-i18n="orderDeliveryArea">Delivery area</span><select id="customerDeliveryArea" required></select></label>
+        <label><span data-i18n="orderDistrict">District</span><select id="customerDistrict" required></select></label>
+        <label><span data-i18n="orderUpazila">Upazila</span><select id="customerUpazila" required disabled></select></label>
+        <label><span data-i18n="orderAddress">Detail address</span><textarea id="customerAddress" rows="3" required></textarea><small class="field-help important" data-i18n="addressHelp">Important: write your exact road, house, floor or landmark. The delivery man will use this address to find you.</small></label>
+        <label><span data-i18n="orderNote">Note</span><textarea id="customerNote" rows="2"></textarea></label>
+      </form>
+      <button class="primary-btn checkout" id="checkoutBtn" type="button" data-i18n="checkout">Checkout on WhatsApp</button>
+    </div>
+  </aside>
+
+  <aside class="drawer" id="wishlistDrawer" aria-hidden="true">
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <h2 data-i18n="wishlistTitle">Wishlist</h2>
+        <button class="icon-btn" id="closeWishlist" type="button" aria-label="Close wishlist">×</button>
+      </div>
+      <div id="wishlistItems" class="cart-items"></div>
+    </div>
+  </aside>
+
+  <dialog id="adminDialog">
+    <button class="icon-btn dialog-close" id="closeAdmin" type="button" aria-label="Close admin">×</button>
+    <div class="admin-panel">
+      <div>
+        <p class="eyebrow" data-i18n="adminEyebrow">Shop admin</p>
+        <h2 data-i18n="adminTitle">Add or edit products</h2>
+        <p class="admin-note" data-i18n="adminNote">Products are saved in this browser. Use a small image or video file for best speed.</p>
+      </div>
+      <div class="settings-panel content-settings">
+        <div>
+          <h3>Website content</h3>
+          <p>Control homepage text, offer text, contact text, and hero image.</p>
+        </div>
+        <form id="contentSettingsForm" class="content-settings-form">
+          <label class="media-upload-wide"><span>Hero image</span><input id="siteHeroImage" type="file" accept="image/*"><small id="siteHeroImageNote"></small></label>
+          <label><span>Hero image URL</span><input id="siteHeroImageUrl" type="url"></label>
+          <label><span>WhatsApp number</span><input id="siteWhatsappNumber" placeholder="8801616524073"></label>
+          <label><span>Coupon code</span><input id="siteCouponCode" placeholder="UBI10"></label>
+          <label><span>Coupon discount %</span><input id="siteCouponPercent" type="number" min="0" max="100"></label>
+          <label><span>Free delivery minimum</span><input id="siteFreeDeliveryAt" type="number" min="0"></label>
+          <label><span>Facebook link</span><input id="siteFacebookUrl" type="url" placeholder="https://facebook.com/..."></label>
+          <label><span>Instagram link</span><input id="siteInstagramUrl" type="url" placeholder="https://instagram.com/..."></label>
+          <label><span>TikTok link</span><input id="siteTiktokUrl" type="url" placeholder="https://tiktok.com/@..."></label>
+          <div class="content-editor-grid" id="contentEditorGrid"></div>
+          <button class="secondary-btn" type="submit">Save website content</button>
+        </form>
+      </div>
+      <form id="adminForm" class="admin-form">
+        <input type="hidden" id="adminId">
+        <label><span data-i18n="adminNameEn">English name</span><input id="adminNameEn" required></label>
+        <label><span data-i18n="adminNameBn">Bangla name</span><input id="adminNameBn" required></label>
+        <label class="admin-textarea"><span data-i18n="adminDescEn">English description</span><textarea id="adminDescEn" rows="4"></textarea></label>
+        <label class="admin-textarea"><span data-i18n="adminDescBn">Bangla description</span><textarea id="adminDescBn" rows="4"></textarea></label>
+        <label>
+          <span data-i18n="adminCategory">Category</span>
+          <select id="adminCategory" required></select>
+        </label>
+        <label class="new-category-box">
+          <span data-i18n="adminNewCategory">Add new category</span>
+          <span class="inline-field">
+            <input id="adminNewCategory" placeholder="Accessories">
+            <button class="secondary-btn" id="addCategoryBtn" type="button" data-i18n="adminAddCategory">Add</button>
+          </span>
+        </label>
+        <label><span data-i18n="adminRegularPrice">Real price</span><input id="adminRegularPrice" type="number" min="1" required></label>
+        <label><span data-i18n="adminPrice">Discount price</span><input id="adminPrice" type="number" min="1" required><small id="adminDiscountNote"></small></label>
+        <label>
+          <span data-i18n="adminStock">Stock status</span>
+          <select id="adminStock" required>
+            <option value="in" data-i18n="stockIn">In Stock</option>
+            <option value="limited" data-i18n="stockLimited">Limited</option>
+            <option value="out" data-i18n="stockOut">Out of Stock</option>
+          </select>
+        </label>
+        <label><span data-i18n="adminVideoUpload">Upload video</span><input id="adminVideoUpload" type="file" accept="video/*"><small id="videoPickNote"></small></label>
+        <label class="media-upload-wide"><span data-i18n="adminImageUpload">Add picture one by one</span><input id="adminImageUpload" type="file" accept="image/*"><small id="imagePickNote"></small><div class="admin-preview-grid" id="imagePreviewGrid"></div></label>
+        <label><span data-i18n="adminColors">Colors</span><input id="adminColors" placeholder="Black, Lime, White"></label>
+        <label><span data-i18n="adminSizes">Sizes</span><input id="adminSizes" placeholder="M, L, XL"></label>
+        <label class="check-field"><input id="adminFreeDelivery" type="checkbox" checked><span data-i18n="adminFreeDelivery">Free delivery eligible</span></label>
+        <div class="admin-actions">
+          <button class="primary-btn" type="submit" data-i18n="adminSave">Save product</button>
+          <button class="secondary-btn" id="adminReset" type="button" data-i18n="adminClear">Clear</button>
+        </div>
+      </form>
+      <label class="admin-search">
+        <span data-i18n="adminSearch">Search product to edit</span>
+        <input id="adminSearch" type="search" placeholder="Search by name or category">
+      </label>
+      <div class="settings-panel delivery-settings">
+        <div>
+          <h3 data-i18n="deliverySettingsTitle">Delivery charges</h3>
+          <p data-i18n="deliverySettingsText">Set once. Checkout will use these amounts automatically.</p>
+        </div>
+        <form id="deliverySettingsForm" class="delivery-settings-form">
+          <label><span data-i18n="insideDhaka">Inside Dhaka</span><input id="deliveryInsideDhaka" type="number" min="0" required></label>
+          <label><span data-i18n="dhakaSubArea">Dhaka Sub Area</span><input id="deliveryDhakaSubArea" type="number" min="0" required></label>
+          <label><span data-i18n="outsideDhaka">Outside Dhaka</span><input id="deliveryOutsideDhaka" type="number" min="0" required></label>
+          <button class="secondary-btn" type="submit" data-i18n="saveDelivery">Save delivery</button>
+        </form>
+      </div>
+      <div class="backup-panel">
+        <div>
+          <h3 data-i18n="backupTitle">Data backup</h3>
+          <p data-i18n="backupText">Export before website updates. Import later to restore your products.</p>
+        </div>
+        <div class="backup-actions">
+          <button class="secondary-btn" id="exportData" type="button" data-i18n="exportData">Export data</button>
+          <label class="secondary-btn import-btn">
+            <span data-i18n="importData">Import data</span>
+            <input id="importData" type="file" accept="application/json">
+          </label>
+        </div>
+      </div>
+      <div class="admin-list" id="adminList"></div>
+    </div>
+  </dialog>
+
+  <script src="bd-locations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
