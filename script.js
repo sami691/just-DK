@@ -1297,28 +1297,23 @@ function removeStagedImage(index) {
 
 function exportShopData() {
   const payload = {
-    app: "ubi-shop",
+    app: "ubi-shop-products",
     version: 1,
+    exportType: "products-only",
     savedAt: new Date().toISOString(),
     products,
-    customCategories,
-    cart,
-    wishlist,
-    deliverySettings,
-    siteSettings,
-    customText,
-    recentViews
+    customCategories
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = `ubi-shop-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  link.download = `ubi-shop-products-${new Date().toISOString().slice(0, 10)}.json`;
   document.body.appendChild(link);
   link.click();
   link.remove();
   URL.revokeObjectURL(url);
-  showToast("Backup exported");
+  showToast("Product data exported");
 }
 
 function exportFullWebsiteData() {
@@ -1357,12 +1352,9 @@ function importShopData(event) {
       if (!Array.isArray(data.products)) throw new Error("Invalid backup");
       products = migrateProducts(data.products);
       customCategories = Array.isArray(data.customCategories) ? data.customCategories : [];
-      cart = normalizeCart(data.cart && typeof data.cart === "object" ? data.cart : {});
-      wishlist = Array.isArray(data.wishlist) ? data.wishlist : [];
-      deliverySettings = { ...defaultDeliverySettings, ...(data.deliverySettings || {}) };
-      siteSettings = { ...defaultSiteSettings, ...(data.siteSettings || {}) };
-      customText = data.customText && typeof data.customText === "object" ? data.customText : {};
-      recentViews = Array.isArray(data.recentViews) ? data.recentViews : [];
+      cart = normalizeCart(cart);
+      wishlist = wishlist.filter((id) => products.some((product) => product.id === Number(id)));
+      recentViews = recentViews.filter((id) => products.some((product) => product.id === Number(id)));
       saveState(true);
       renderCategories();
       renderFeaturedSlider();
