@@ -727,6 +727,7 @@ function totals() {
 function renderCart() {
   const entries = cartEntries();
   const nextCartCount = entries.reduce((sum, item) => sum + item.qty, 0);
+  $("#openCart").classList.toggle("has-items", nextCartCount > 0);
   $("#cartCount").textContent = nextCartCount;
   if (nextCartCount !== lastCartCount) {
     popElement($("#cartCount"));
