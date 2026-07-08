@@ -1566,9 +1566,10 @@ dialog::backdrop { background: rgba(0, 0, 0, .5); }
 
 .delivery-settings-form {
   display: grid;
-  grid-template-columns: repeat(3, minmax(110px, 1fr)) auto;
+  grid-template-columns: repeat(3, minmax(120px, 1fr)) minmax(110px, auto);
   gap: 8px;
   align-items: end;
+  width: min(100%, 520px);
 }
 
 .content-settings-form {
