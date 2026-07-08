@@ -274,7 +274,7 @@ function renderProducts() {
           <span class="badge ${badgeClass(item)}">${autoBadge(item)}</span>
           <span class="stock ${stockClass(item)}">${stockText(item)}</span>
         </button>
-        <h3 class="product-title">${item.name[lang]}</h3>
+        <h3 class="product-title" role="link" tabindex="0" onclick="goProduct(${item.id})" onkeydown="if(event.key === 'Enter' || event.key === ' '){event.preventDefault();goProduct(${item.id})}">${item.name[lang]}</h3>
         <div class="product-meta"><span>${item.category}</span>${priceHtml(item)}</div>
         ${freeDeliveryLabel(item)}
         <div class="card-actions">
@@ -379,7 +379,12 @@ function renderRecentProducts() {
 }
 
 function goProduct(id) {
-  location.hash = `product-${id}`;
+  const nextHash = `#product-${id}`;
+  if (location.hash === nextHash) {
+    renderRoute();
+    return;
+  }
+  location.hash = nextHash;
 }
 
 function productMediaSrc(item) {
@@ -451,9 +456,13 @@ function addToCart(id, color, size, qty = 1) {
   cart[key].qty += amount;
   product.cartAdds = (product.cartAdds || 0) + amount;
   saveState();
-  renderProducts();
   renderCart();
-  refreshOpenDetail();
+  try {
+    renderProducts();
+    refreshOpenDetail();
+  } catch (error) {
+    console.error("Non-critical product redraw failed:", error);
+  }
   showToast(`${product.name[lang]} added to cart`);
 }
 
@@ -482,7 +491,11 @@ function changeQty(key, delta) {
   if (cart[key].qty <= 0) delete cart[key];
   saveState();
   renderCart();
-  refreshOpenDetail();
+  try {
+    refreshOpenDetail();
+  } catch (error) {
+    console.error("Non-critical product detail redraw failed:", error);
+  }
 }
 
 function toggleWishlist(id) {
@@ -779,12 +792,16 @@ function applyCartCoupon() {
 function openProduct(id) {
   const item = products.find((product) => product.id === id);
   if (!item) return;
+  renderProductDetail(item);
   item.views = (item.views || 0) + 1;
   rememberProduct(item.id);
   saveState();
-  renderProducts();
-  renderRecentProducts();
-  renderProductDetail(item);
+  try {
+    renderProducts();
+    renderRecentProducts();
+  } catch (error) {
+    console.error("Non-critical product list redraw failed:", error);
+  }
 }
 
 function detailMediaTag(item) {
