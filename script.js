@@ -70,6 +70,17 @@ const defaultSiteSettings = {
   tiktokUrl: ""
 };
 
+const publishedData = window.UBI_PUBLISHED_DATA || {};
+const publishedVersion = String(publishedData.version || "");
+if (publishedVersion && localStorage.getItem("ubi-published-version") !== publishedVersion) {
+  localStorage.setItem("ubi-products", JSON.stringify(publishedData.products || defaultProducts));
+  localStorage.setItem("ubi-categories", JSON.stringify(publishedData.customCategories || []));
+  localStorage.setItem("ubi-delivery-settings", JSON.stringify(publishedData.deliverySettings || defaultDeliverySettings));
+  localStorage.setItem("ubi-site-settings", JSON.stringify(publishedData.siteSettings || defaultSiteSettings));
+  localStorage.setItem("ubi-custom-text", JSON.stringify(publishedData.customText || {}));
+  localStorage.setItem("ubi-published-version", publishedVersion);
+}
+
 let lang = localStorage.getItem("ubi-lang") || "en";
 let cart = JSON.parse(localStorage.getItem("ubi-cart") || "{}");
 let wishlist = JSON.parse(localStorage.getItem("ubi-wishlist") || "[]");
