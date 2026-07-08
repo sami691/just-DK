@@ -1358,9 +1358,11 @@ function checkout() {
   const customerAddress = $("#customerAddress").value.trim();
   const customerNote = $("#customerNote").value.trim();
   persistCheckoutDetails();
+  const pageUrl = location.origin === "null" ? location.href.split("#")[0] : `${location.origin}${location.pathname}`;
   const lines = entries.map(({ product, qty, color, size }) => {
     const saved = Math.max(0, (product.regularPrice || product.price) - product.price) * qty;
-    return `- ${product.name.en} | Color: ${color} | Size: ${size} | Qty: ${qty} = ${money(product.price * qty)}${saved ? ` (saved ${money(saved)})` : ""}`;
+    const productLink = `${pageUrl}#product-${product.id}`;
+    return `- ${product.name.en} | Color: ${color} | Size: ${size} | Qty: ${qty} = ${money(product.price * qty)}${saved ? ` (saved ${money(saved)})` : ""}\n  Product link: ${productLink}`;
   });
   const amount = totals();
   const message = [
