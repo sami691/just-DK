@@ -873,6 +873,7 @@ function renderRoute() {
   if (location.hash === "#admin") {
     openAdminPanel();
     history.replaceState(null, "", "#home");
+    return;
   }
   const match = location.hash.match(/^#product-(\d+)/);
   const detailPage = $("#productDetailPage");
@@ -1321,7 +1322,8 @@ function updateAdminDiscountNote() {
 }
 
 function openAdminPanel() {
-  $("#adminDialog").showModal();
+  const dialog = $("#adminDialog");
+  if (!dialog.open) dialog.showModal();
 }
 
 let brandTapCount = 0;
