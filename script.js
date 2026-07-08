@@ -1392,6 +1392,15 @@ function updateAdminDiscountNote() {
 }
 
 function openAdminPanel() {
+  if (sessionStorage.getItem("ubi-admin-unlocked") !== "yes") {
+    const enteredPassword = prompt("Admin password");
+    if (enteredPassword === null) return;
+    if (enteredPassword !== adminPassword) {
+      showToast("Wrong admin password");
+      return;
+    }
+    sessionStorage.setItem("ubi-admin-unlocked", "yes");
+  }
   const dialog = $("#adminDialog");
   if (!dialog.open) dialog.showModal();
 }
