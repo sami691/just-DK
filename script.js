@@ -182,16 +182,39 @@ function badgeClass(item) {
   return "";
 }
 
-function saveState() {
-  localStorage.setItem("ubi-cart", JSON.stringify(cart));
-  localStorage.setItem("ubi-wishlist", JSON.stringify(wishlist));
-  localStorage.setItem("ubi-products", JSON.stringify(products));
-  localStorage.setItem("ubi-categories", JSON.stringify(customCategories));
-  localStorage.setItem("ubi-delivery-settings", JSON.stringify(deliverySettings));
-  localStorage.setItem("ubi-site-settings", JSON.stringify(siteSettings));
-  localStorage.setItem("ubi-custom-text", JSON.stringify(customText));
-  localStorage.setItem("ubi-recent-views", JSON.stringify(recentViews));
-  localStorage.setItem("ubi-last-backup", JSON.stringify({ products, customCategories, cart, wishlist, deliverySettings, siteSettings, customText, recentViews, savedAt: new Date().toISOString() }));
+function saveStorageValue(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+    return true;
+  } catch (error) {
+    console.error(`Could not save ${key}:`, error);
+    return false;
+  }
+}
+
+let productSaveTimer;
+
+function saveProductsSoon(immediately = false) {
+  clearTimeout(productSaveTimer);
+  if (immediately) {
+    saveStorageValue("ubi-products", products);
+    return;
+  }
+  productSaveTimer = setTimeout(() => saveStorageValue("ubi-products", products), 400);
+}
+
+function saveState(saveProductsImmediately = false) {
+  // Product images already use most of localStorage. Keeping a second automatic
+  // copy can exceed the browser quota and stop every live UI update.
+  localStorage.removeItem("ubi-last-backup");
+  saveStorageValue("ubi-cart", cart);
+  saveStorageValue("ubi-wishlist", wishlist);
+  saveStorageValue("ubi-categories", customCategories);
+  saveStorageValue("ubi-delivery-settings", deliverySettings);
+  saveStorageValue("ubi-site-settings", siteSettings);
+  saveStorageValue("ubi-custom-text", customText);
+  saveStorageValue("ubi-recent-views", recentViews);
+  saveProductsSoon(saveProductsImmediately);
 }
 
 function translatePage() {
@@ -1180,7 +1203,7 @@ function deleteProduct(id) {
     if (cart[key]?.id === id || parseCartKey(key).id === id) delete cart[key];
   });
   wishlist = wishlist.filter((item) => item !== id);
-  saveState();
+  saveState(true);
   renderCategories();
   renderProducts();
   renderCart();
@@ -1222,7 +1245,7 @@ async function saveProduct(event) {
   };
   products = products.some((item) => item.id === id) ? products.map((item) => item.id === id ? product : item) : [product, ...products];
   customCategories = [...new Set([...customCategories, product.category])];
-  saveState();
+  saveState(true);
   clearAdminForm();
   renderCategories();
   renderProducts();
@@ -1314,7 +1337,7 @@ function importShopData(event) {
       siteSettings = { ...defaultSiteSettings, ...(data.siteSettings || {}) };
       customText = data.customText && typeof data.customText === "object" ? data.customText : {};
       recentViews = Array.isArray(data.recentViews) ? data.recentViews : [];
-      saveState();
+      saveState(true);
       renderCategories();
       renderFeaturedSlider();
       renderProducts();
@@ -1414,7 +1437,7 @@ function checkout() {
   entries.forEach(({ product, qty }) => {
     if (product) product.sold = (product.sold || 0) + qty;
   });
-  saveState();
+  saveState(true);
   renderProducts();
   renderAdminList();
   window.open(`https://wa.me/${siteSettings.whatsappNumber || phoneNumber}?text=${message}`, "_blank");
