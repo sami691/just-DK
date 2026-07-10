@@ -71,7 +71,7 @@ const defaultSiteSettings = {
 };
 
 const publishedData = window.UBI_PUBLISHED_DATA || {};
-const publishedVersion = String(publishedData.version || "");
+const publishedVersion = String(publishedData.publishedVersion || publishedData.version || "");
 if (publishedVersion && localStorage.getItem("ubi-published-version") !== publishedVersion) {
   localStorage.setItem("ubi-products", JSON.stringify(publishedData.products || defaultProducts));
   localStorage.setItem("ubi-categories", JSON.stringify(publishedData.customCategories || []));
