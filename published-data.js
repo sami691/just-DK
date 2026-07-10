@@ -41,7 +41,15 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783712983189-main-8605bf3838043603.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783712983189-main-8605bf3838043603.jpg",
+        "assets/products/thumbs/1783712983189-img2-c1b9e85fa78de47d.jpg",
+        "assets/products/thumbs/1783712983189-img3-59fd6439a5b63192.jpg",
+        "assets/products/thumbs/1783712983189-img4-56b0b3e4717fe1c3.jpg",
+        "assets/products/thumbs/1783712983189-img5-f2a55e6b440a0ee5.jpg"
+      ]
     },
     {
       "id": 1783712018292,
@@ -82,7 +90,15 @@ window.UBI_PUBLISHED_DATA = {
         "50",
         "52"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783712018292-main-5caef7a698423e57.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783712018292-main-5caef7a698423e57.jpg",
+        "assets/products/thumbs/1783712018292-img2-9f5dc88b1f2ab6b2.jpg",
+        "assets/products/thumbs/1783712018292-img3-cee83b46fe1141c2.jpg",
+        "assets/products/thumbs/1783712018292-img4-6b6e5a1e8ce38a84.jpg",
+        "assets/products/thumbs/1783712018292-img5-45bc7e726617a509.jpg"
+      ]
     },
     {
       "id": 1783710961008,
@@ -120,7 +136,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783710961008-main-ea4217564dac04ee.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783710961008-main-ea4217564dac04ee.jpg",
+        "assets/products/thumbs/1783710961008-img2-d11856341fc662f7.jpg",
+        "assets/products/thumbs/1783710961008-img3-0d02b8b5ecaa5931.jpg"
+      ]
     },
     {
       "id": 1783710268401,
@@ -155,7 +177,12 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783710268401-main-02d26a392131100e.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783710268401-main-02d26a392131100e.jpg",
+        "assets/products/thumbs/1783710268401-img2-59259b5e93868bd3.jpg"
+      ]
     },
     {
       "id": 1783697400610,
@@ -197,7 +224,14 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783697400610-main-adfbcd21af44390d.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783697400610-main-adfbcd21af44390d.jpg",
+        "assets/products/thumbs/1783697400610-img2-14c079ed67fbcc21.jpg",
+        "assets/products/thumbs/1783697400610-img3-d7eedb3c4fd2b1e1.jpg",
+        "assets/products/thumbs/1783697400610-img4-9f1f18fc3677a3e5.jpg"
+      ]
     },
     {
       "id": 1783694985464,
@@ -238,7 +272,13 @@ window.UBI_PUBLISHED_DATA = {
         "42",
         "44"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783694985464-main-e1126b6f899ac5d5.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783694985464-main-e1126b6f899ac5d5.jpg",
+        "assets/products/thumbs/1783694985464-img2-477a977c52726acf.jpg",
+        "assets/products/thumbs/1783694985464-img3-1cd2308d9fdef6e2.jpg"
+      ]
     },
     {
       "id": 1783694347329,
@@ -276,7 +316,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783694347329-main-5c1c883a7fb9fde0.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783694347329-main-5c1c883a7fb9fde0.jpg",
+        "assets/products/thumbs/1783694347329-img2-d950afded60631af.jpg",
+        "assets/products/thumbs/1783694347329-img3-db8ff1a63dea7d38.jpg"
+      ]
     },
     {
       "id": 1783693978811,
@@ -314,7 +360,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783693978811-main-c38bff4e352e7ba3.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783693978811-main-c38bff4e352e7ba3.jpg",
+        "assets/products/thumbs/1783693978811-img2-7e3577abcda906af.jpg",
+        "assets/products/thumbs/1783693978811-img3-73899490c712a770.jpg"
+      ]
     },
     {
       "id": 1783693390847,
@@ -352,7 +404,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783693390847-main-8a173e2c13bd4cc7.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783693390847-main-8a173e2c13bd4cc7.jpg",
+        "assets/products/thumbs/1783693390847-img2-1657f33ef2648074.jpg",
+        "assets/products/thumbs/1783693390847-img3-352de3b7b68fb532.jpg"
+      ]
     },
     {
       "id": 1783692931480,
@@ -390,7 +448,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783692931480-main-c5ed605b04cd94f6.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783692931480-main-c5ed605b04cd94f6.jpg",
+        "assets/products/thumbs/1783692931480-img2-3893a99e23fb7dd8.jpg",
+        "assets/products/thumbs/1783692931480-img3-f6f1e5171e330d09.jpg"
+      ]
     },
     {
       "id": 1783691690564,
@@ -428,7 +492,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783691690564-main-51e079d844d772c2.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783691690564-main-51e079d844d772c2.jpg",
+        "assets/products/thumbs/1783691690564-img2-91e70f13ac6bc18a.jpg",
+        "assets/products/thumbs/1783691690564-img3-a6a309be230c8a25.jpg"
+      ]
     },
     {
       "id": 1783691345111,
@@ -466,7 +536,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783691345111-main-62de82e38580721a.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783691345111-main-62de82e38580721a.jpg",
+        "assets/products/thumbs/1783691345111-img2-06aa928271454338.jpg",
+        "assets/products/thumbs/1783691345111-img3-9ca25a8238968d9a.jpg"
+      ]
     },
     {
       "id": 1783688230928,
@@ -503,7 +579,12 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783688230928-main-ce0084cc6500b1de.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783688230928-main-ce0084cc6500b1de.jpg",
+        "assets/products/thumbs/1783688230928-img2-8c544fc0a0ecb258.jpg"
+      ]
     },
     {
       "id": 1783687753281,
@@ -541,7 +622,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783687753281-main-9088edd5eb16ab4a.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783687753281-main-9088edd5eb16ab4a.jpg",
+        "assets/products/thumbs/1783687753281-img2-b53d264fbacd5d38.jpg",
+        "assets/products/thumbs/1783687753281-img3-7c93817c09512487.jpg"
+      ]
     },
     {
       "id": 1783683809761,
@@ -579,7 +666,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783683809761-main-3800782f488a866e.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783683809761-main-3800782f488a866e.jpg",
+        "assets/products/thumbs/1783683809761-img2-d7208412177c959f.jpg",
+        "assets/products/thumbs/1783683809761-img3-e16fde6260de1abc.jpg"
+      ]
     },
     {
       "id": 1783683545819,
@@ -616,7 +709,12 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783683545819-main-ad70d45cde37ceb1.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783683545819-main-ad70d45cde37ceb1.jpg",
+        "assets/products/thumbs/1783683545819-img2-95d702dd3a67eb5d.jpg"
+      ]
     },
     {
       "id": 1783683270838,
@@ -654,7 +752,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783683270838-main-e679f2d56dd8814a.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783683270838-main-e679f2d56dd8814a.jpg",
+        "assets/products/thumbs/1783683270838-img2-2ec909a19c58329a.jpg",
+        "assets/products/thumbs/1783683270838-img3-6291e324d9ecd381.jpg"
+      ]
     },
     {
       "id": 1783682914726,
@@ -691,7 +795,14 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783682914726-main-1e94042ab72ce76d.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783682914726-main-1e94042ab72ce76d.jpg",
+        "assets/products/thumbs/1783682914726-img2-980e128dcd7efe8a.jpg",
+        "assets/products/thumbs/1783682914726-img3-0729a9f7a3f03784.jpg",
+        "assets/products/thumbs/1783682914726-img4-3beba8c096ba58fc.jpg"
+      ]
     },
     {
       "id": 1783682499401,
@@ -731,7 +842,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783682499401-main-14ac58fcb1d5a8d7.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783682499401-main-14ac58fcb1d5a8d7.jpg",
+        "assets/products/thumbs/1783682499401-img2-9d26ed8978bdc824.jpg",
+        "assets/products/thumbs/1783682499401-img3-49d663f579eed251.jpg"
+      ]
     },
     {
       "id": 1783682021978,
@@ -770,7 +887,16 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783682021978-main-e6e9e4f0b3905b95.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783682021978-main-e6e9e4f0b3905b95.jpg",
+        "assets/products/thumbs/1783682021978-img2-951506c09b8d9bd8.jpg",
+        "assets/products/thumbs/1783682021978-img3-9e68f7fa33a1ae18.jpg",
+        "assets/products/thumbs/1783682021978-img4-9eb10f1947ddf819.jpg",
+        "assets/products/thumbs/1783682021978-img5-78253da0d27bc53a.jpg",
+        "assets/products/thumbs/1783682021978-img6-74e6ff222059bb3e.jpg"
+      ]
     },
     {
       "id": 1783681547974,
@@ -810,7 +936,14 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783681547974-main-b15e70b58eebf924.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783681547974-main-b15e70b58eebf924.jpg",
+        "assets/products/thumbs/1783681547974-img2-a1d59b6c4c74cffc.jpg",
+        "assets/products/thumbs/1783681547974-img3-45d640359f0e248c.jpg",
+        "assets/products/thumbs/1783681547974-img4-e8be218ce974d4db.jpg"
+      ]
     },
     {
       "id": 1783680866977,
@@ -852,7 +985,15 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783680866977-main-6a84ba523556cce5.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783680866977-main-6a84ba523556cce5.jpg",
+        "assets/products/thumbs/1783680866977-img2-2c9f5473c0203276.jpg",
+        "assets/products/thumbs/1783680866977-img3-3ac54421f0327f3f.jpg",
+        "assets/products/thumbs/1783680866977-img4-c9774ef8a928428b.jpg",
+        "assets/products/thumbs/1783680866977-img5-25de686d618e24c3.jpg"
+      ]
     },
     {
       "id": 1783680065418,
@@ -892,7 +1033,14 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783680065418-main-3cc3620808075c04.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783680065418-main-3cc3620808075c04.jpg",
+        "assets/products/thumbs/1783680065418-img2-fed990ca9d118521.jpg",
+        "assets/products/thumbs/1783680065418-img3-1558d5946995d2b6.jpg",
+        "assets/products/thumbs/1783680065418-img4-7faa506da6e1104b.jpg"
+      ]
     },
     {
       "id": 1783679059391,
@@ -930,7 +1078,13 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783679059391-main-54a3d84ef063c2d2.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783679059391-main-54a3d84ef063c2d2.jpg",
+        "assets/products/thumbs/1783679059391-img2-8e1d63332a0e18ca.jpg",
+        "assets/products/thumbs/1783679059391-img3-fbe439dcefb5bb29.jpg"
+      ]
     },
     {
       "id": 1783678347062,
@@ -966,7 +1120,13 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "52"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783678347062-main-bc803a479215aa33.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783678347062-main-bc803a479215aa33.jpg",
+        "assets/products/thumbs/1783678347062-img2-e0b14669452cb0de.jpg",
+        "assets/products/thumbs/1783678347062-img3-1871cb2bdb8cbd51.jpg"
+      ]
     },
     {
       "id": 1783677917301,
@@ -1006,7 +1166,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783677917301-main-8b08c2924e350e57.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783677917301-main-8b08c2924e350e57.jpg",
+        "assets/products/thumbs/1783677917301-img2-71076dd240ed749b.jpg",
+        "assets/products/thumbs/1783677917301-img3-982a6928b28f9165.jpg"
+      ]
     },
     {
       "id": 1783677583558,
@@ -1047,7 +1213,14 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783677583558-main-56ecac6c48b3c564.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783677583558-main-56ecac6c48b3c564.jpg",
+        "assets/products/thumbs/1783677583558-img2-28a8d5f637fa5c7c.jpg",
+        "assets/products/thumbs/1783677583558-img3-e63c785dca8fa9a4.jpg",
+        "assets/products/thumbs/1783677583558-img4-e9020b06cdd62f7a.jpg"
+      ]
     },
     {
       "id": 1783676928501,
@@ -1087,7 +1260,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783676928501-main-206d268535d99fb6.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783676928501-main-206d268535d99fb6.jpg",
+        "assets/products/thumbs/1783676928501-img2-969dd29789a60d9b.jpg",
+        "assets/products/thumbs/1783676928501-img3-2f1fd07030d6b72e.jpg"
+      ]
     },
     {
       "id": 1783676386405,
@@ -1130,7 +1309,16 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783676386405-main-8a16d15526922d06.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783676386405-main-8a16d15526922d06.jpg",
+        "assets/products/thumbs/1783676386405-img2-0232074f13f42a9a.jpg",
+        "assets/products/thumbs/1783676386405-img3-7c00ce6b2531b528.jpg",
+        "assets/products/thumbs/1783676386405-img4-73c1c06fbb164427.jpg",
+        "assets/products/thumbs/1783676386405-img5-fd79450ab4bd202c.jpg",
+        "assets/products/thumbs/1783676386405-img6-9df4c10d2a84b70d.jpg"
+      ]
     },
     {
       "id": 1783675456258,
@@ -1170,7 +1358,15 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783675456258-main-2e5238d9dff246ed.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783675456258-main-2e5238d9dff246ed.jpg",
+        "assets/products/thumbs/1783675456258-img2-95a7052c8d3f1756.jpg",
+        "assets/products/thumbs/1783675456258-img3-51f4845b6947cfd0.jpg",
+        "assets/products/thumbs/1783675456258-img4-5eb322d256937718.jpg",
+        "assets/products/thumbs/1783675456258-img5-afd44e5713363e9a.jpg"
+      ]
     },
     {
       "id": 1783675316344,
@@ -1208,7 +1404,12 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783675316344-main-1497cbf526fe40ac.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783675316344-main-1497cbf526fe40ac.jpg",
+        "assets/products/thumbs/1783675316344-img2-b8a826014867df97.jpg"
+      ]
     },
     {
       "id": 1783634512987,
@@ -1249,7 +1450,15 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783634512987-main-1111ff7ca542676f.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783634512987-main-1111ff7ca542676f.jpg",
+        "assets/products/thumbs/1783634512987-img2-3b7803205a32ace0.jpg",
+        "assets/products/thumbs/1783634512987-img3-cdc137bf2eb70502.jpg",
+        "assets/products/thumbs/1783634512987-img4-ed9002510247af8c.jpg",
+        "assets/products/thumbs/1783634512987-img5-19a1e04a369c7e14.jpg"
+      ]
     },
     {
       "id": 1783634152072,
@@ -1289,7 +1498,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783634152072-main-9e532fa6dc30d2d2.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783634152072-main-9e532fa6dc30d2d2.jpg",
+        "assets/products/thumbs/1783634152072-img2-45bda25cc46e6a0e.jpg",
+        "assets/products/thumbs/1783634152072-img3-664a71f815c2ac6d.jpg"
+      ]
     },
     {
       "id": 1783633700857,
@@ -1330,7 +1545,14 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783633700857-main-831916ada8f15ed9.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783633700857-main-831916ada8f15ed9.jpg",
+        "assets/products/thumbs/1783633700857-img2-2a1671ea617b8616.jpg",
+        "assets/products/thumbs/1783633700857-img3-c93d3a2618d9a62a.jpg",
+        "assets/products/thumbs/1783633700857-img4-f6939a29e2d0aa05.jpg"
+      ]
     },
     {
       "id": 1783632655267,
@@ -1368,7 +1590,13 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783632655267-main-ac67a2e737a5efc3.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783632655267-main-ac67a2e737a5efc3.jpg",
+        "assets/products/thumbs/1783632655267-img2-7f7f5b21588f0e39.jpg",
+        "assets/products/thumbs/1783632655267-img3-a6930f4758e4fdc8.jpg"
+      ]
     },
     {
       "id": 1783631981194,
@@ -1405,7 +1633,13 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783631981194-main-2db7d833ce68726e.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783631981194-main-2db7d833ce68726e.jpg",
+        "assets/products/thumbs/1783631981194-img2-6a79d0da98e6feed.jpg",
+        "assets/products/thumbs/1783631981194-img3-c13c9fa6a641856e.jpg"
+      ]
     },
     {
       "id": 1783629710211,
@@ -1445,7 +1679,14 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783629710211-main-da2d4ee0cb3c0111.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783629710211-main-da2d4ee0cb3c0111.jpg",
+        "assets/products/thumbs/1783629710211-img2-e8574db7523ffc98.jpg",
+        "assets/products/thumbs/1783629710211-img3-b868889b62b8c7ba.jpg",
+        "assets/products/thumbs/1783629710211-img4-6f0f39270db5e89f.jpg"
+      ]
     },
     {
       "id": 1783628845695,
@@ -1487,7 +1728,14 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783628845695-main-48e8bf6af9c5b11c.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783628845695-main-48e8bf6af9c5b11c.jpg",
+        "assets/products/thumbs/1783628845695-img2-8390f86ca7737e8d.jpg",
+        "assets/products/thumbs/1783628845695-img3-683bb2448f1b5ed1.jpg",
+        "assets/products/thumbs/1783628845695-img4-0f4571f3fd55d598.jpg"
+      ]
     },
     {
       "id": 1783628492508,
@@ -1529,7 +1777,13 @@ window.UBI_PUBLISHED_DATA = {
         "XL",
         "XXL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783628492508-main-6ca521e9fe1d1937.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783628492508-main-6ca521e9fe1d1937.jpg",
+        "assets/products/thumbs/1783628492508-img2-dd79716226c2b033.jpg",
+        "assets/products/thumbs/1783628492508-img3-0d5e5f05af4fbc32.jpg"
+      ]
     },
     {
       "id": 1783627974112,
@@ -1567,7 +1821,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783627974112-main-949809a339c25583.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783627974112-main-949809a339c25583.jpg",
+        "assets/products/thumbs/1783627974112-img2-157cde02fc599933.jpg",
+        "assets/products/thumbs/1783627974112-img3-afd6bbac7afa614b.jpg"
+      ]
     },
     {
       "id": 1783622425776,
@@ -1605,7 +1865,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783622425776-main-088114a0451bb50d.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783622425776-main-088114a0451bb50d.jpg",
+        "assets/products/thumbs/1783622425776-img2-53acd1034a3bdc53.jpg",
+        "assets/products/thumbs/1783622425776-img3-ee3e8ddce1f67208.jpg"
+      ]
     },
     {
       "id": 1783621710100,
@@ -1647,7 +1913,15 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783621710100-main-16d7464af49bdcdb.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783621710100-main-16d7464af49bdcdb.jpg",
+        "assets/products/thumbs/1783621710100-img2-3eb3cb5936d050d2.jpg",
+        "assets/products/thumbs/1783621710100-img3-85ac5203c640e472.jpg",
+        "assets/products/thumbs/1783621710100-img4-ba3e5ead545d54f3.jpg",
+        "assets/products/thumbs/1783621710100-img5-8ceaa6dda2e39fb3.jpg"
+      ]
     },
     {
       "id": 1783619148186,
@@ -1690,7 +1964,16 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783619148186-main-e99581cde796ad28.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783619148186-main-e99581cde796ad28.jpg",
+        "assets/products/thumbs/1783619148186-img2-52bfb76298d46aaa.jpg",
+        "assets/products/thumbs/1783619148186-img3-0d8b806ae99464fe.jpg",
+        "assets/products/thumbs/1783619148186-img4-34587db03cab4140.jpg",
+        "assets/products/thumbs/1783619148186-img5-626662074f9ada9c.jpg",
+        "assets/products/thumbs/1783619148186-img6-05e9286d64bdcf82.jpg"
+      ]
     },
     {
       "id": 1783617954741,
@@ -1728,7 +2011,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/1783617954741-main-7331d34969df4794.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/1783617954741-main-7331d34969df4794.jpg",
+        "assets/products/thumbs/1783617954741-img2-76c239691e6bdbb0.jpg",
+        "assets/products/thumbs/1783617954741-img3-51536b0b8182e0ff.jpg"
+      ]
     },
     {
       "id": 2,
@@ -1769,7 +2058,15 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/2-main-f8950be2087db7d8.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/2-main-f8950be2087db7d8.jpg",
+        "assets/products/thumbs/2-img2-578594aefdcb18ab.jpg",
+        "assets/products/thumbs/2-img3-51d171b76baf19b3.jpg",
+        "assets/products/thumbs/2-img4-e36ff39701825234.jpg",
+        "assets/products/thumbs/2-img5-7c18fb477460ddb4.jpg"
+      ]
     },
     {
       "id": 3,
@@ -1807,7 +2104,13 @@ window.UBI_PUBLISHED_DATA = {
         "L",
         "XL"
       ],
-      "freeDelivery": true
+      "freeDelivery": true,
+      "thumbnail": "assets/products/thumbs/3-main-4671c9502a01979d.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/3-main-4671c9502a01979d.jpg",
+        "assets/products/thumbs/3-img2-08ef492159cbd872.jpg",
+        "assets/products/thumbs/3-img3-e80d186d4e6950f9.jpg"
+      ]
     },
     {
       "id": 4,
@@ -1850,7 +2153,14 @@ window.UBI_PUBLISHED_DATA = {
         "54",
         "56"
       ],
-      "freeDelivery": false
+      "freeDelivery": false,
+      "thumbnail": "assets/products/thumbs/4-main-4e0bb737f38d3593.jpg",
+      "thumbnails": [
+        "assets/products/thumbs/4-main-4e0bb737f38d3593.jpg",
+        "assets/products/thumbs/4-img2-cd8f69d31c8b53c4.jpg",
+        "assets/products/thumbs/4-img3-49f4c461abee0c6b.jpg",
+        "assets/products/thumbs/4-img4-f0650eacf2ddd5f8.jpg"
+      ]
     }
   ],
   "customCategories": [
@@ -1879,8 +2189,8 @@ window.UBI_PUBLISHED_DATA = {
   "customText": {},
   "app": "ubi-shop-full-website",
   "exportType": "publish-ready",
-  "publishedVersion": "20260710214743",
-  "savedAt": "2026-07-10T21:47:43.405Z",
+  "publishedVersion": "20260710220001",
+  "savedAt": "2026-07-10T22:00:01.046Z",
   "sourceExport": {
     "app": "ubi-shop-products",
     "exportType": "products-only",
@@ -1892,6 +2202,9 @@ window.UBI_PUBLISHED_DATA = {
     "assetDir": "assets/products",
     "written": 169,
     "replaced": 263,
-    "at": "2026-07-10T21:47:43.405Z"
+    "at": "2026-07-10T21:47:43.405Z",
+    "thumbnails": true,
+    "thumbnailSize": 420,
+    "thumbnailVersion": "20260710220001"
   }
 };

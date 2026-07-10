@@ -117,7 +117,9 @@ function migrateProducts(list) {
     stockStatus: item.stockStatus || (Number(item.stock || 0) === 0 ? "out" : Number(item.stock || 0) <= 3 ? "limited" : "in"),
     regularPrice: Number(item.regularPrice || item.price || 0),
     price: Number(item.price || item.regularPrice || 0),
+    thumbnail: item.thumbnail || item.image || item.media,
     images: item.images?.length ? item.images : [item.image || item.media].filter(Boolean),
+    thumbnails: item.thumbnails?.length ? item.thumbnails : (item.images?.length ? item.images : [item.thumbnail || item.image || item.media].filter(Boolean)),
     video: item.video || ((item.mediaType === "video" || String(item.media || "").startsWith("data:video")) ? item.media : ""),
     createdAt: item.createdAt || now - (index + 10) * 86400000,
     views: Number(item.views || 0),
@@ -414,13 +416,17 @@ function productMediaSrc(item) {
   return item.images?.[0] || item.image || item.media || item.video || "";
 }
 
-function mediaTag(item, alt, className = "") {
-  const src = productMediaSrc(item);
+function productThumbSrc(item) {
+  return item.thumbnail || item.thumbnails?.[0] || item.images?.[0] || item.image || item.media || item.video || "";
+}
+
+function mediaTag(item, alt, className = "", useThumb = true) {
+  const src = useThumb ? productThumbSrc(item) : productMediaSrc(item);
   const type = String(src).startsWith("data:video") || /\.(mp4|webm|ogg)(\?|$)/i.test(src) ? "video" : "image";
   if (type === "video") {
     return `<video class="${className}" src="${src}" muted loop playsinline preload="metadata" onmouseenter="this.play()" onmouseleave="this.pause()"></video>`;
   }
-  return `<img class="${className}" src="${src}" alt="${alt}">`;
+  return `<img class="${className}" src="${src}" alt="${alt}" loading="lazy" decoding="async">`;
 }
 
 function optionList(item, type) {
@@ -537,7 +543,7 @@ function renderWishlist() {
   const items = wishlist.map((id) => products.find((item) => item.id === id)).filter(Boolean);
   $("#wishlistItems").innerHTML = items.length ? items.map((product) => `
     <div class="cart-item">
-      <img src="${product.image}" alt="${product.name[lang]}">
+      <img src="${productThumbSrc(product)}" alt="${product.name[lang]}" loading="lazy" decoding="async">
       <div><strong>${product.name[lang]}</strong><br><span>${priceHtml(product)}</span></div>
       <div class="wishlist-actions">
         <button class="primary-btn" type="button" ${isAvailable(product) ? "" : "disabled"} onclick="addToCart(${product.id})">${t("add")}</button>
@@ -736,7 +742,7 @@ function renderCart() {
   $("#cartItems").innerHTML = entries.length ? entries.map(({ key, product, qty, color, size }) => {
     return `
       <div class="cart-item">
-        <img src="${productMediaSrc(product)}" alt="${product.name[lang]}">
+        <img src="${productThumbSrc(product)}" alt="${product.name[lang]}" loading="lazy" decoding="async">
         <div>
           <strong>${product.name[lang]}</strong>
           <span class="cart-options">${t("color")}: ${escapeHtml(color)} · ${t("size")}: ${escapeHtml(size)}</span>
@@ -837,7 +843,8 @@ function detailMediaTag(item) {
 
 function galleryThumbs(item) {
   const images = item.images?.length ? item.images : [item.image || item.media].filter(Boolean);
-  return images.map((src) => `<button class="gallery-thumb" type="button" data-src="${encodeURIComponent(src)}" onclick="setDetailImage(${item.id}, this.dataset.src)"><img src="${src}" alt="${item.name[lang]}"></button>`).join("");
+  const thumbs = item.thumbnails?.length ? item.thumbnails : images;
+  return images.map((src, index) => `<button class="gallery-thumb" type="button" data-src="${encodeURIComponent(src)}" onclick="setDetailImage(${item.id}, this.dataset.src)"><img src="${thumbs[index] || src}" alt="${item.name[lang]}" loading="lazy" decoding="async"></button>`).join("");
 }
 
 function setDetailImage(id, encodedSrc) {
@@ -1130,13 +1137,14 @@ function celebrate(anchor, count = 12) {
 function animateToCart(product) {
   const target = $("#openCart");
   if (!target) return;
-  const source = [...document.querySelectorAll(".product-card img")].find((img) => img.src === product.image);
+  const thumbSrc = productThumbSrc(product);
+  const source = [...document.querySelectorAll(".product-card img")].find((img) => img.getAttribute("src") === thumbSrc || img.src.endsWith(thumbSrc));
   const start = source?.getBoundingClientRect();
   const end = target.getBoundingClientRect();
   if (!start || !end) return;
   const flyer = document.createElement("img");
   flyer.className = "cart-flyer";
-  flyer.src = product.image;
+  flyer.src = thumbSrc;
   flyer.style.left = `${start.left + start.width / 2 - 22}px`;
   flyer.style.top = `${start.top + start.height / 2 - 22}px`;
   flyer.style.setProperty("--tx", `${end.left + end.width / 2 - start.left - start.width / 2}px`);
