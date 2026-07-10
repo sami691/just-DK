@@ -67,7 +67,9 @@ const defaultSiteSettings = {
   couponPercent: 10,
   facebookUrl: "",
   instagramUrl: "",
-  tiktokUrl: ""
+  tiktokUrl: "",
+  cloudinaryCloudName: "dtyoqvey6",
+  cloudinaryUploadPreset: "ubi_shop_unsigned"
 };
 
 const publishedData = window.UBI_PUBLISHED_DATA || {};
@@ -652,6 +654,8 @@ function renderContentEditor() {
   $("#siteFacebookUrl").value = siteSettings.facebookUrl || "";
   $("#siteInstagramUrl").value = siteSettings.instagramUrl || "";
   $("#siteTiktokUrl").value = siteSettings.tiktokUrl || "";
+  $("#siteCloudinaryCloud").value = siteSettings.cloudinaryCloudName || "";
+  $("#siteCloudinaryPreset").value = siteSettings.cloudinaryUploadPreset || "";
   grid.innerHTML = editableTextKeys.map((key) => `
     <label>
       <span>${key} EN</span>
@@ -667,7 +671,9 @@ function renderContentEditor() {
 async function saveContentSettings(event) {
   event.preventDefault();
   const imageFile = $("#siteHeroImage").files[0];
-  siteSettings.heroImage = imageFile ? await fileToDataUrl(imageFile) : ($("#siteHeroImageUrl").value.trim() || defaultSiteSettings.heroImage);
+  siteSettings.cloudinaryCloudName = $("#siteCloudinaryCloud").value.trim();
+  siteSettings.cloudinaryUploadPreset = $("#siteCloudinaryPreset").value.trim();
+  siteSettings.heroImage = imageFile ? await fileToBestUrl(imageFile) : ($("#siteHeroImageUrl").value.trim() || defaultSiteSettings.heroImage);
   siteSettings.whatsappNumber = $("#siteWhatsappNumber").value.trim() || defaultSiteSettings.whatsappNumber;
   siteSettings.couponCode = $("#siteCouponCode").value.trim().toUpperCase() || defaultSiteSettings.couponCode;
   siteSettings.couponPercent = Math.max(0, Math.min(100, Number($("#siteCouponPercent").value || defaultSiteSettings.couponPercent)));
@@ -996,6 +1002,60 @@ function fileToDataUrl(file) {
   });
 }
 
+function cloudinaryConfig() {
+  return {
+    cloudName: String(siteSettings.cloudinaryCloudName || "").trim(),
+    uploadPreset: String(siteSettings.cloudinaryUploadPreset || "").trim()
+  };
+}
+
+function cloudinaryReady() {
+  const config = cloudinaryConfig();
+  return Boolean(config.cloudName && config.uploadPreset);
+}
+
+async function uploadToCloudinary(file) {
+  const config = cloudinaryConfig();
+  if (!file || !config.cloudName || !config.uploadPreset) return "";
+  const resourceType = file.type.startsWith("video/") ? "video" : "image";
+  const body = new FormData();
+  body.append("file", file);
+  body.append("upload_preset", config.uploadPreset);
+  body.append("folder", "ubi-shop");
+  const response = await fetch(`https://api.cloudinary.com/v1_1/${config.cloudName}/${resourceType}/upload`, {
+    method: "POST",
+    body
+  });
+  const result = await response.json();
+  if (!response.ok) throw new Error(result?.error?.message || "Cloudinary upload failed");
+  return result.secure_url || result.url || "";
+}
+
+async function fileToHostedUrl(file) {
+  if (!file) return "";
+  if (!cloudinaryReady()) {
+    showToast("Set Cloudinary cloud name and upload preset first");
+    throw new Error("Cloudinary is not configured");
+  }
+  return uploadToCloudinary(file);
+}
+
+async function fileToBestUrl(file) {
+  if (!file) return "";
+  if (!cloudinaryReady()) return fileToDataUrl(file);
+  try {
+    return await uploadToCloudinary(file);
+  } catch (error) {
+    showToast(error.message || "Cloudinary upload failed");
+    throw error;
+  }
+}
+
+function cloudinaryThumbUrl(src, size = 420) {
+  if (typeof src !== "string" || !src.includes("res.cloudinary.com/") || !src.includes("/upload/")) return src;
+  return src.replace("/upload/", `/upload/f_auto,q_auto,c_fill,w_${size},h_${size}/`);
+}
+
 async function filesToDataUrls(files) {
   return Promise.all([...files].map(fileToDataUrl));
 }
@@ -1227,7 +1287,7 @@ async function saveProduct(event) {
   const id = Number($("#adminId").value) || Date.now();
   const existing = products.find((item) => item.id === id);
   const videoUpload = $("#adminVideoUpload").files[0];
-  const video = videoUpload ? await fileToDataUrl(videoUpload) : existing?.video || "";
+  const video = videoUpload ? await fileToBestUrl(videoUpload) : existing?.video || "";
   const images = stagedImages.length ? stagedImages : existing?.images?.length ? existing.images : existing?.image ? [existing.image] : ["https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=800&q=80"];
   const primaryImage = images[0];
   const product = {
@@ -1240,7 +1300,9 @@ async function saveProduct(event) {
     stock: $("#adminStock").value === "out" ? 0 : 999,
     stockStatus: $("#adminStock").value,
     image: primaryImage,
+    thumbnail: cloudinaryThumbUrl(primaryImage),
     images,
+    thumbnails: images.map((src) => cloudinaryThumbUrl(src)),
     video,
     media: video || primaryImage,
     mediaType: video ? "video" : "image",
@@ -1272,7 +1334,7 @@ async function updateUploadPreview() {
   const videoFile = $("#adminVideoUpload").files[0];
   $("#videoPickNote").textContent = videoFile ? t("selectedVideo").replace("{name}", videoFile.name) : "";
   if (imageFile) {
-    stagedImages.push(await fileToDataUrl(imageFile));
+    stagedImages.push(await fileToBestUrl(imageFile));
     $("#adminImageUpload").value = "";
   }
   renderStagedImages();
