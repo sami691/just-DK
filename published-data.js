@@ -231,16 +231,20 @@ window.UBI_PUBLISHED_DATA = {
       "price": 700,
       "stock": 999,
       "stockStatus": "in",
-      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
-      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783789766/ubi-shop/mdltyel9fiknvaqhpwro.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783789766/ubi-shop/mdltyel9fiknvaqhpwro.png",
       "images": [
-        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png"
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783789766/ubi-shop/mdltyel9fiknvaqhpwro.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783789800/ubi-shop/cfggaaxz2sw20a9fx0rq.png"
       ],
       "thumbnails": [
-        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png"
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783789766/ubi-shop/mdltyel9fiknvaqhpwro.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783789800/ubi-shop/cfggaaxz2sw20a9fx0rq.png"
       ],
       "video": "",
-      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783789766/ubi-shop/mdltyel9fiknvaqhpwro.png",
       "mediaType": "image",
       "views": 0,
       "cartAdds": 0,
@@ -2534,13 +2538,13 @@ window.UBI_PUBLISHED_DATA = {
   "customText": {},
   "app": "ubi-shop-full-website",
   "exportType": "publish-ready",
-  "publishedVersion": "20260711162726",
-  "savedAt": "2026-07-11T16:27:26.110Z",
+  "publishedVersion": "20260711171150",
+  "savedAt": "2026-07-11T17:11:50.618Z",
   "sourceExport": {
     "app": "ubi-shop-products",
     "exportType": "products-only",
-    "savedAt": "2026-07-11T16:20:44.834Z",
-    "file": "ubi-shop-products-2026-07-11.json"
+    "savedAt": "2026-07-11T17:10:39.289Z",
+    "file": "ubi-shop-products-2026-07-11 (1).json"
   },
   "optimizedAssets": {
     "type": "local-files",
