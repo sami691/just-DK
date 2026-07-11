@@ -2,6 +2,350 @@ window.UBI_PUBLISHED_DATA = {
   "version": "2026-07-08T19:56:53.359Z",
   "products": [
     {
+      "id": 1783786296142,
+      "category": "Watch's",
+      "name": {
+        "en": "D1 Milano Polycarbon Arabic Watch",
+        "bn": "D1 Milano Polycarbon Arabic Watch"
+      },
+      "description": {
+        "en": "Code:\n9751\n\nD1 Milano Polycarbon Arabic Watch – Black\n\nThis D1 Milano Polycarbon Arabic Watch – Black combines a modern minimalist design with a lightweight construction. Its Arabic numeral dial, comfortable polycarbonate strap, and reliable quartz movement create a smart and classy look. It is suitable for office wear, casual outings, travel, and everyday use.\n\nPackage Includes:\n\nWatch: D1 Milano Polycarbon Arabic Watch – Black\nUser Guide: Included if applicable\n\nProduct Features:\n\nModern and minimalist design\nArabic numeral analog dial\nLightweight polycarbonate case\nComfortable polycarbonate-style strap\nReliable battery-powered quartz movement\nResistant to light rain and minor water splashes\nComfortable for long hours of wear\nSuitable for formal and casual outfits\nDesigned for men and unisex use\nPerfect for office, outings, travel, and daily wear\n\nProduct Specifications:\n\nCase Material: Polycarbonate\nStrap Material: Polycarbonate or lightweight synthetic material\nDial: Analog dial with Arabic numerals\nMovement: Quartz\nPower Source: Battery\nWater Resistance: Suitable for light rain and minor splashes\nStyle: Men’s / Unisex\n\nAvailable Color:\n\nBlack\n\nCare Instructions:\n\nDo not use while swimming, showering, or fully submerged in water\nKeep away from perfume and strong chemicals\nClean with a soft, dry cloth\nReplace the battery when required\n\nWarranty:\n\nNo warranty is applicable for this model.\n\nNote: This watch is designed to resist only minor water splashes during everyday use. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "D1 Milano Polycarbon Arabic Watch – Black\n\nআধুনিক মিনিমাল ডিজাইন ও হালকা ওজনের কনস্ট্রাকশনের এই D1 Milano Polycarbon Arabic Watch – Black দৈনন্দিন স্টাইলে যোগ করবে স্মার্ট ও ক্লাসি ফিনিশ। আরবি সংখ্যার ডায়াল, আরামদায়ক পলিকার্বনেট স্ট্র্যাপ এবং নির্ভরযোগ্য কোয়ার্টজ মুভমেন্টের কারণে এটি অফিস, ক্যাজুয়াল আউটিং, ট্রাভেল ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: D1 Milano Polycarbon Arabic Watch – Black\nইউজার গাইড: প্রযোজ্য হলে\n\nপণ্যের বৈশিষ্ট্য:\n\nআধুনিক ও মিনিমাল ডিজাইন\nআরবি সংখ্যার অ্যানালগ ডায়াল\nহালকা পলিকার্বনেট কেস\nআরামদায়ক পলিকার্বনেট স্টাইল স্ট্র্যাপ\nনির্ভরযোগ্য ব্যাটারিচালিত কোয়ার্টজ মুভমেন্ট\nহালকা বৃষ্টি ও পানির সামান্য ছিটা প্রতিরোধী\nদীর্ঘ সময় ব্যবহারের জন্য আরামদায়ক\nফরমাল ও ক্যাজুয়াল পোশাকের সঙ্গে মানানসই\nপুরুষ ও ইউনিসেক্স ব্যবহারের জন্য উপযুক্ত\nঅফিস, আউটিং, ভ্রমণ ও দৈনন্দিন ব্যবহারের জন্য আদর্শ\n\nপণ্যের বিস্তারিত:\n\nকেসের উপাদান: পলিকার্বনেট\nস্ট্র্যাপের উপাদান: পলিকার্বনেট বা লাইটওয়েট সিনথেটিক\nডায়াল: আরবি সংখ্যাসহ অ্যানালগ ডায়াল\nমুভমেন্ট: কোয়ার্টজ\nপাওয়ার: ব্যাটারিচালিত\nওয়াটার রেজিস্ট্যান্স: হালকা বৃষ্টি ও পানির সামান্য ছিটা প্রতিরোধী\nস্টাইল: মেনস / ইউনিসেক্স\n\nকালার:\n\nব্ল্যাক\n\nব্যবহারের নির্দেশনা:\n\nসাঁতার, গোসল বা সম্পূর্ণ পানিতে ডুবিয়ে ব্যবহার করবেন না\nপারফিউম ও শক্তিশালী রাসায়নিক পদার্থ থেকে দূরে রাখুন\nনরম ও শুকনা কাপড় দিয়ে পরিষ্কার করুন\nপ্রয়োজন অনুযায়ী সময়মতো ব্যাটারি পরিবর্তন করুন\n\nওয়ারেন্টি:\n\nএই মডেলের সঙ্গে কোনো ওয়ারেন্টি প্রযোজ্য নয়।\n\nনোট: ঘড়িটি শুধুমাত্র দৈনন্দিন ব্যবহারে পানির সামান্য ছিটা সহ্য করতে পারে। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 650,
+      "price": 550,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783786228/ubi-shop/t1xwc873kzmujotnjnkz.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783786228/ubi-shop/t1xwc873kzmujotnjnkz.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783786228/ubi-shop/t1xwc873kzmujotnjnkz.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783786249/ubi-shop/vtkb93ow9xwdeuivjts6.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783786279/ubi-shop/xztbulaxbwl8hgmzznsd.webp"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783786228/ubi-shop/t1xwc873kzmujotnjnkz.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783786249/ubi-shop/vtkb93ow9xwdeuivjts6.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783786279/ubi-shop/xztbulaxbwl8hgmzznsd.webp"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783786228/ubi-shop/t1xwc873kzmujotnjnkz.png",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783786296142,
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783785565279,
+      "category": "Watch's",
+      "name": {
+        "en": "D1 Milano Polycarbonate Arabic Edition",
+        "bn": "ডি১ মিলানো পলিকার্বোনেট অ্যারাবিক এডিশন"
+      },
+      "description": {
+        "en": "Code:\n9928\n\nD1 Milano Polycarbonate Arabic Edition – Limited Edition Timepiece\n\nThe D1 Milano Polycarbonate Arabic Edition combines contemporary minimalism with cultural elegance. Its clean Arabic numeral dial, lightweight polycarbonate construction, and precise quartz movement create a refined and modern look. Comfortable for long hours of wear, this limited-edition watch is suitable for daily use, casual outfits, formal occasions, and gifting.\n\nPackage Includes:\n\nWatch: D1 Milano Polycarbonate Arabic Edition wristwatch\n\nProduct Features:\n\nMinimalist Arabic numeral dial\nLightweight polycarbonate case and strap\nSoft-touch and comfortable finish\nReliable analog quartz movement\nDurable mineral glass\nAnti-reflective glass coating\nPVD-coated stainless steel screw-down caseback\nSplash-resistant construction\nModern and versatile design\nExclusive limited-edition timepiece\nSuitable for casual, formal, and everyday wear\n\nProduct Specifications:\n\nCase Material: Polycarbonate with soft-touch finish\nStrap Material: Matching polycarbonate strap\nDial Display: Analog\nDial Design: Arabic numerals\nGlass Type: Mineral glass with anti-reflective coating\nMovement: Quartz\nCaseback: PVD-coated stainless steel screw-down caseback\nWater Resistance: Splash-resistant\nEdition: Limited Edition\n\nAvailable Color:\n\nWhite with Black Arabic Numerals\n\nNote: The watch is suitable for everyday splashes only. Avoid swimming, showering, or fully submerging it in water. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "ডি১ মিলানো পলিকার্বোনেট অ্যারাবিক এডিশন – লিমিটেড এডিশন টাইমপিস\n\nডি১ মিলানো পলিকার্বোনেট অ্যারাবিক এডিশন ঘড়িটিতে আধুনিক মিনিমাল ডিজাইনের সঙ্গে সাংস্কৃতিক সৌন্দর্যের চমৎকার সমন্বয় রয়েছে। আকর্ষণীয় আরবি সংখ্যার ডায়াল, হালকা পলিকার্বোনেট বডি এবং নির্ভুল কোয়ার্টজ মুভমেন্ট ঘড়িটিকে দিয়েছে মার্জিত ও আধুনিক লুক। দীর্ঘ সময় আরামদায়কভাবে পরার উপযোগী এই লিমিটেড এডিশন ঘড়িটি দৈনন্দিন ব্যবহার, ক্যাজুয়াল ও ফরমাল পোশাক এবং উপহার দেওয়ার জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: ডি১ মিলানো পলিকার্বোনেট অ্যারাবিক এডিশন রিস্টওয়াচ\n\nপণ্যের বৈশিষ্ট্য:\n\nমিনিমাল আরবি সংখ্যার ডায়াল\nহালকা পলিকার্বোনেট কেস ও স্ট্র্যাপ\nসফট-টাচ ও আরামদায়ক ফিনিশ\nনির্ভরযোগ্য অ্যানালগ কোয়ার্টজ মুভমেন্ট\nটেকসই মিনারেল গ্লাস\nঅ্যান্টি-রিফ্লেক্টিভ গ্লাস কোটিং\nপিভিডি-কোটেড স্টেইনলেস স্টিল স্ক্রু-ডাউন কেসব্যাক\nপানির সামান্য ছিটা প্রতিরোধী\nআধুনিক ও বহুমুখী ডিজাইন\nএক্সক্লুসিভ লিমিটেড এডিশন\nক্যাজুয়াল, ফরমাল ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nপণ্যের বিস্তারিত:\n\nকেসের উপাদান: সফট-টাচ ফিনিশসহ পলিকার্বোনেট\nস্ট্র্যাপের উপাদান: ম্যাচিং পলিকার্বোনেট স্ট্র্যাপ\nডায়াল ডিসপ্লে: অ্যানালগ\nডায়াল ডিজাইন: আরবি সংখ্যা\nগ্লাসের ধরন: অ্যান্টি-রিফ্লেক্টিভ কোটিংসহ মিনারেল গ্লাস\nমুভমেন্ট: কোয়ার্টজ\nকেসব্যাক: পিভিডি-কোটেড স্টেইনলেস স্টিল স্ক্রু-ডাউন কেসব্যাক\nওয়াটার রেজিস্ট্যান্স: পানির সামান্য ছিটা প্রতিরোধী\nএডিশন: লিমিটেড এডিশন\n\nকালার:\n\nব্ল্যাক আরবি সংখ্যাসহ হোয়াইট\n\nনোট: ঘড়িটি দৈনন্দিন ব্যবহারে পানির সামান্য ছিটা সহ্য করতে পারে। সাঁতার, গোসল অথবা সম্পূর্ণ পানিতে ডুবিয়ে ব্যবহার করা থেকে বিরত থাকুন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 700,
+      "price": 600,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785453/ubi-shop/i6qxzdg6ccly0gnic3fr.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785558/ubi-shop/xjsocnpb7iweom6igs36.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785453/ubi-shop/i6qxzdg6ccly0gnic3fr.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785558/ubi-shop/xjsocnpb7iweom6igs36.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783785565279,
+      "colors": [
+        "White"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783784654210,
+      "category": "Watch's",
+      "name": {
+        "en": "POEDAGAR 2937 Luxury Man Wrist Watch",
+        "bn": "POEDAGAR 2937 লাক্সারি মেন রিস্ট ওয়াচ"
+      },
+      "description": {
+        "en": "Code:\n11263\n\nPOEDAGAR 2937 Luxury Man Wrist Watch (Black Chain & Black Dial)\n\nThis premium POEDAGAR 2937 Luxury Man Wrist Watch features a sleek black dial, stainless steel chain, and elegant round case. Its classic analog display, quartz movement, luminous hands, and water-resistant design make it suitable for business meetings, parties, casual outings, and everyday wear.\n\nPackage Includes:\n\nWatch: POEDAGAR 2937 wristwatch with black stainless steel chain and black dial\n\nProduct Features:\n\nBrand: POEDAGAR\nModel: 2937\nQuartz movement\nRound analog dial\nHardlex dial window\nStainless steel case\nStainless steel band\nPush-button hidden clasp\nAutomatic date display\nChronograph function\nComplete calendar\nLuminous dial and hands\n3BAR water resistance\nElegant, sporty, and luxurious design\nSuitable for business, casual, fashion, and daily wear\n\nMeasurements:\n\nBand Length: 21 cm\nCase Thickness: 11 mm\n\nMovement:\n\nChina Quartz Movement\n\nAvailable Color:\n\nBlack Chain with Black Dial\n\nNote: The watch is water-resistant up to 3BAR and suitable for minor splashes only. Avoid swimming, showering, or fully submerging it in water. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "POEDAGAR 2937 লাক্সারি মেন রিস্ট ওয়াচ (ব্ল্যাক চেইন ও ব্ল্যাক ডায়াল)\n\nপ্রিমিয়াম ডিজাইনের এই POEDAGAR 2937 লাক্সারি মেন রিস্ট ওয়াচটিতে রয়েছে আকর্ষণীয় ব্ল্যাক ডায়াল, স্টেইনলেস স্টিল চেইন এবং মার্জিত গোলাকার কেস। ক্লাসিক অ্যানালগ ডিসপ্লে, কোয়ার্টজ মুভমেন্ট, লুমিনাস হ্যান্ডস ও ওয়াটার রেজিস্ট্যান্ট সুবিধার কারণে এটি অফিস, ব্যবসায়িক মিটিং, পার্টি, ক্যাজুয়াল আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: ব্ল্যাক স্টেইনলেস স্টিল চেইন ও ব্ল্যাক ডায়ালসহ POEDAGAR 2937 রিস্ট ওয়াচ\n\nপণ্যের বৈশিষ্ট্য:\n\nব্র্যান্ড: POEDAGAR\nমডেল: 2937\nকোয়ার্টজ মুভমেন্ট\nগোলাকার অ্যানালগ ডায়াল\nহার্ডলেক্স ডায়াল উইন্ডো\nস্টেইনলেস স্টিল কেস\nস্টেইনলেস স্টিল ব্যান্ড\nপুশ-বাটন হিডেন ক্ল্যাস্প\nঅটোমেটিক ডেট ডিসপ্লে\nক্রোনোগ্রাফ ফাংশন\nকমপ্লিট ক্যালেন্ডার\nলুমিনাস ডায়াল ও হ্যান্ডস\n৩ বার ওয়াটার রেজিস্ট্যান্স\nমার্জিত, স্পোর্টি ও লাক্সারি ডিজাইন\nবিজনেস, ক্যাজুয়াল, ফ্যাশন ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nমাপ:\n\nব্যান্ডের দৈর্ঘ্য: ২১ সেমি\nকেসের পুরুত্ব: ১১ মিমি\n\nমুভমেন্ট:\n\nচায়না কোয়ার্টজ মুভমেন্ট\n\nকালার:\n\nব্ল্যাক চেইন ও ব্ল্যাক ডায়াল\n\nনোট: ঘড়িটি ৩ বার ওয়াটার রেজিস্ট্যান্ট এবং সামান্য পানির ছিটা সহ্য করতে পারে। সাঁতার, গোসল অথবা সম্পূর্ণ পানিতে ডুবিয়ে ব্যবহার করা থেকে বিরত থাকুন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 1000,
+      "price": 890,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784756/ubi-shop/mcjhqv1xu9fsrtah23kk.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784756/ubi-shop/mcjhqv1xu9fsrtah23kk.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784756/ubi-shop/mcjhqv1xu9fsrtah23kk.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784783/ubi-shop/a7riloqbdtx7turccc2g.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784756/ubi-shop/mcjhqv1xu9fsrtah23kk.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784783/ubi-shop/a7riloqbdtx7turccc2g.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784756/ubi-shop/mcjhqv1xu9fsrtah23kk.png",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783784654211,
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": true
+    },
+    {
+      "id": 1783784296489,
+      "category": "Watch's",
+      "name": {
+        "en": "RC Nikee Chain Watch",
+        "bn": "RC Nikee Chain Watch"
+      },
+      "description": {
+        "en": "Code:\n11133\n\nRC Nikee Chain Watch\n\nThis stylish and uniquely designed RC Nikee Chain Watch adds a bold and modern touch to your look. Its distinctive case design, metal lock, and soft, comfortable strap make it attractive and trendy. Perfect for daily wear, sports, casual outfits, and outings.\n\nPackage Includes:\n\nWatch: RC Nikee Chain Watch\n\nProduct Features:\n\nModern and unique design\nPolycarbonate chain strap with butterfly metal lock\nSoft and comfortable strap\nSuitable for sports, casual wear, and daily use\nBold and unconventional case design\nPartially covered dial for a sleek and athletic look\nStylish, trendy, and attractive finish\n\nAvailable Colors:\n\nPremium Black\nSilver\n\nBrand Origin:\n\nChina\n\nNote: Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "RC Nikee Chain Watch\n\nস্টাইলিশ ও ইউনিক ডিজাইনের এই RC Nikee Chain Watch আপনার লুকে যোগ করবে একদম আলাদা মাত্রা। এর আধুনিক কেস ডিজাইন, মেটাল লক এবং সফট কমফোর্টেবল স্ট্র্যাপ ঘড়িটিকে করেছে আকর্ষণীয় ও ট্রেন্ডি। ডেইলি ইউজ, স্পোর্টস, ক্যাজুয়াল আউটফিট বা আউটিং—সবকিছুর সাথেই এটি দারুণ মানিয়ে যায়।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: RC Nikee Chain Watch\n\nপণ্যের বৈশিষ্ট্য:\n\nআধুনিক ও ইউনিক ডিজাইন\nচেইন পলি কার্বন বাটারফ্লাই মেটাল লক\nসফট ও কমফোর্টেবল স্ট্র্যাপ\nস্পোর্টস, ক্যাজুয়াল ও ডেইলি ইউজের জন্য উপযুক্ত\nসাহসী ও অপ্রচলিত কেস ডিজাইন\nআংশিকভাবে ডায়াল কভার করা ডিজাইন, যা দেয় স্মুথ ও অ্যাথলেটিক লুক\nস্টাইলিশ, ট্রেন্ডি ও আকর্ষণীয় ফিনিশ\n\nকালার:\n\nপ্রিমিয়াম ব্ল্যাক\nসিলভার\n\nব্র্যান্ড:\n\nচায়না\n\nনোট: আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 800,
+      "price": 690,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784279/ubi-shop/tpqs32u6v1akaov8lom0.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784279/ubi-shop/tpqs32u6v1akaov8lom0.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784279/ubi-shop/tpqs32u6v1akaov8lom0.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784184/ubi-shop/oprhbrchkho0xipmyf47.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784187/ubi-shop/libeqvkidsbdovfxp3sj.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784194/ubi-shop/rqnrlwmvapkwny4gsho3.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784199/ubi-shop/xolozy4rjonyvt88qhsp.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784205/ubi-shop/idarjmgacmurvcfexwhm.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784279/ubi-shop/tpqs32u6v1akaov8lom0.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784184/ubi-shop/oprhbrchkho0xipmyf47.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784187/ubi-shop/libeqvkidsbdovfxp3sj.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784194/ubi-shop/rqnrlwmvapkwny4gsho3.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784199/ubi-shop/xolozy4rjonyvt88qhsp.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783784205/ubi-shop/idarjmgacmurvcfexwhm.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783784279/ubi-shop/tpqs32u6v1akaov8lom0.png",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783784296489,
+      "colors": [
+        "Silver",
+        "black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783783620617,
+      "category": "Watch's",
+      "name": {
+        "en": "POEDAGAR 2937 Luxury Man Wrist watch",
+        "bn": "POEDAGAR 2937 Luxury Man Wrist watch"
+      },
+      "description": {
+        "en": "Code:\n11269\n\nPOEDAGAR Watch\n\nThis modern, elegant, and premium POEDAGAR Watch is suitable for office wear, business meetings, parties, and everyday use. Its stainless steel body and band, clean analog dial, and date display create a smart and classy look.\n\nPackage Includes:\n\nWatch: POEDAGAR analog quartz watch with stainless steel band\n\nProduct Features:\n\nPOEDAGAR brand\nQuartz movement\nRound analog dial\nHardlex dial window\nStainless steel case\nStainless steel band\nAutomatic date display\nLuminous hands\nWater-resistant design\nPush-button hidden clasp\nSuitable for casual, fashion, sports, and business wear\n\nMeasurements:\n\nBand Length: 21 cm\nCase Thickness: 11 mm\n\nMovement:\n\nChina Quartz Movement\n\nAvailable Color:\n\nSilver Body with White Dial\n\nNote: The exact water-resistance depth is not specified, so avoid swimming or fully submerging the watch in water. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "POEDAGAR Watch\n\nআধুনিক, মার্জিত ও প্রিমিয়াম ডিজাইনের এই POEDAGAR Watch অফিস, ব্যবসায়িক মিটিং, পার্টি ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত। স্টেইনলেস স্টিল বডি ও ব্যান্ড, পরিষ্কার অ্যানালগ ডায়াল এবং ডেট ডিসপ্লে ঘড়িটিকে দিয়েছে ক্লাসি ও স্মার্ট লুক।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: স্টেইনলেস স্টিল ব্যান্ডসহ POEDAGAR অ্যানালগ কোয়ার্টজ ঘড়ি\n\nপণ্যের বৈশিষ্ট্য:\n\nPOEDAGAR ব্র্যান্ড\nকোয়ার্টজ মুভমেন্ট\nগোলাকার অ্যানালগ ডায়াল\nহার্ডলেক্স ডায়াল গ্লাস\nস্টেইনলেস স্টিল কেস\nস্টেইনলেস স্টিল ব্যান্ড\nঅটো ডেট ডিসপ্লে\nলুমিনাস হ্যান্ডস\nওয়াটার রেজিস্ট্যান্ট\nপুশ-বাটন হিডেন ক্ল্যাস্প\nক্যাজুয়াল, ফ্যাশন ও বিজনেস লুকের জন্য উপযুক্ত\n\nমাপ:\n\nব্যান্ডের দৈর্ঘ্য: ২১ সেমি\nকেসের পুরুত্ব: ১১ মিমি\n\nমুভমেন্ট:\n\nচায়না কোয়ার্টজ মুভমেন্ট\n\nকালার:\n\nসিলভার বডি ও হোয়াইট ডায়াল\n\nনোট: নির্দিষ্ট গভীরতার তথ্য দেওয়া নেই, তাই ঘড়িটি পানিতে ডুবিয়ে ব্যবহার করা থেকে বিরত থাকুন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 1000,
+      "price": 890,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783783596/ubi-shop/cispu9nok2ptc5dzxnqi.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783783596/ubi-shop/cispu9nok2ptc5dzxnqi.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783783596/ubi-shop/cispu9nok2ptc5dzxnqi.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783783582/ubi-shop/mvspcnqi6odt871rn53i.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783783601/ubi-shop/i54uby9ra1wbjgorx0tz.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783783596/ubi-shop/cispu9nok2ptc5dzxnqi.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783783582/ubi-shop/mvspcnqi6odt871rn53i.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783783601/ubi-shop/i54uby9ra1wbjgorx0tz.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783783596/ubi-shop/cispu9nok2ptc5dzxnqi.png",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783783620617,
+      "colors": [
+        "White"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783782094811,
+      "category": "Watch's",
+      "name": {
+        "en": "Signature Trendy Men Watch",
+        "bn": "সিগনেচার ট্রেন্ডি মেন ওয়াচ"
+      },
+      "description": {
+        "en": "Code:\n7528\n\nSignature Trendy Men Watch\n\nThe Signature Trendy Men Watch combines modern style with a classy and premium appearance. Its durable metal body, stainless steel back, and comfortable artificial leather strap make it suitable for office wear, casual outings, parties, and everyday use.\n\nPackage Includes:\n\nWatch: Signature Trendy Men Watch with artificial leather strap\n\nProduct Features:\n\nStylish and modern design\nDurable metal body\nStainless steel back\nWater-resistant construction\nComfortable artificial leather strap\nPremium round analog dial\nSecure buckle closure\nSuitable for office, parties, casual outings, and daily use\nMade in China\n\nModel Number:\n\nNo. 5979\n\nAvailable Color:\n\nBlack Dial with Brown Strap\n\nNote: Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "সিগনেচার ট্রেন্ডি মেন ওয়াচ\n\nআধুনিক ডিজাইন ও ক্লাসি লুকের এই সিগনেচার ট্রেন্ডি মেন ওয়াচটি আপনার ব্যক্তিত্বে যোগ করবে স্টাইলিশ ছোঁয়া। টেকসই মেটাল বডি, স্টেইনলেস স্টিল ব্যাক এবং আরামদায়ক আর্টিফিশিয়াল লেদার স্ট্র্যাপের কারণে এটি অফিস, পার্টি, ক্যাজুয়াল আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: আর্টিফিশিয়াল লেদার স্ট্র্যাপসহ সিগনেচার ট্রেন্ডি মেন ওয়াচ\n\nপণ্যের বৈশিষ্ট্য:\n\nআধুনিক ও স্টাইলিশ ডিজাইন\nটেকসই মেটাল বডি\nস্টেইনলেস স্টিল ব্যাক\nওয়াটার রেজিস্ট্যান্ট\nআরামদায়ক আর্টিফিশিয়াল লেদার স্ট্র্যাপ\nপ্রিমিয়াম রাউন্ড অ্যানালগ ডায়াল\nনিরাপদ বাকল লক\nঅফিস, পার্টি, ক্যাজুয়াল আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\nমেড ইন চায়না\n\nমডেল নম্বর:\n\nNo. 5979\n\nকালার:\n\nব্ল্যাক ডায়াল ও ব্রাউন স্ট্র্যাপ\n\nনোট: আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 800,
+      "price": 700,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783781496/ubi-shop/uzgxkanv2z7hzvizyny3.png",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783782094812,
+      "colors": [
+        "Brown"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783777422357,
+      "category": "Watch's",
+      "name": {
+        "en": "Sports Watch",
+        "bn": "স্পোর্টস ঘড়ি"
+      },
+      "description": {
+        "en": "Code:\n12701\n\nSports Watch\n\nThis sporty and stylish watch is a great choice for everyday use. Its comfortable silicone strap, modern square dial, and premium appearance create an attractive and fashionable look. It pairs perfectly with T-shirts, jeans, and other casual outfits.\n\nPackage Includes:\n\nWatch: Stylish analog sports watch with silicone strap\n\nProduct Features:\n\nSporty and stylish design\nComfortable silicone strap\nModern square-shaped dial\nPremium and attractive appearance\nLightweight and easy to wear\nSuitable for daily and casual use\nPerfect with T-shirts and jeans\n\nAvailable Colors:\n\nBlack\nWhite\n\nNote: Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "স্পোর্টস ঘড়ি\n\nস্পোর্টি ও স্টাইলিশ ডিজাইনের এই ঘড়িটি দৈনন্দিন ব্যবহারের জন্য একটি চমৎকার পছন্দ। আরামদায়ক সিলিকন স্ট্র্যাপ, আধুনিক স্কয়ার ডায়াল এবং প্রিমিয়াম লুক ঘড়িটিকে করেছে আকর্ষণীয় ও ব্যবহারবান্ধব। টি-শার্ট, জিন্স ও ক্যাজুয়াল পোশাকের সঙ্গে সহজেই মানিয়ে যায়।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: সিলিকন স্ট্র্যাপসহ স্টাইলিশ অ্যানালগ স্পোর্টস ঘড়ি\n\nপণ্যের বৈশিষ্ট্য:\n\nস্পোর্টি ও স্টাইলিশ ডিজাইন\nআরামদায়ক সিলিকন স্ট্র্যাপ\nআধুনিক স্কয়ার ডায়াল\nপ্রিমিয়াম ও আকর্ষণীয় লুক\nহালকা ও সহজে ব্যবহারযোগ্য\nদৈনন্দিন ও ক্যাজুয়াল ব্যবহারের জন্য উপযুক্ত\nটি-শার্ট ও জিন্সের সঙ্গে মানানসই\n\nকালার:\n\nব্ল্যাক\nহোয়াইট\n\nনোট: আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 450,
+      "price": 390,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783777070/ubi-shop/eborbf5iamzfjrvx8vgw.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783777070/ubi-shop/eborbf5iamzfjrvx8vgw.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783777070/ubi-shop/eborbf5iamzfjrvx8vgw.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783777061/ubi-shop/uvh6svrpzhkd5cms9pyz.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783777077/ubi-shop/btiuwbl1vek31ayesnbg.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783777083/ubi-shop/azkccdhkgvwst5piaa1v.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783777070/ubi-shop/eborbf5iamzfjrvx8vgw.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783777061/ubi-shop/uvh6svrpzhkd5cms9pyz.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783777077/ubi-shop/btiuwbl1vek31ayesnbg.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783777083/ubi-shop/azkccdhkgvwst5piaa1v.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783777070/ubi-shop/eborbf5iamzfjrvx8vgw.png",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783777422357,
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783776679009,
+      "category": "Watch's",
+      "name": {
+        "en": "Apache Luminous (Batmen Edition)",
+        "bn": "অ্যাপাচি লুমিনাস (ব্যাটম্যান এডিশন)"
+      },
+      "description": {
+        "en": "Code: 3016\n\nApache Luminous (Batmen Edition)\n\nThe Apache Luminous (Batmen Edition) is a stylish sports watch designed to add a bold and modern touch to your look. Its skeleton analog dial, luminous details, premium artificial leather strap, and transparent glass back create a distinctive appearance. Suitable for office wear, parties, casual outings, and everyday use.\n\nPackage Includes:\n\nWatch: Apache Batman Sports Series skeleton analog watch\n\nProduct Features:\n\nApache Batman Sports Series\nSkeleton analog dial\nReliable quartz movement\nHard mineral glass\nOriginal artificial leather strap\nLuminous 42 mm dial\nEmbossed lock\nZinc alloy dial case\nTransparent glass back\nStylish and comfortable design\nSuitable for office, parties, casual outings, and daily use\n\nAvailable Color:\n\nBlack\n\nNote: Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "অ্যাপাচি লুমিনাস (ব্যাটম্যান এডিশন)\n\nস্টাইল ও ব্যক্তিত্বে আধুনিক ছোঁয়া যোগ করতে অ্যাপাচি লুমিনাস (ব্যাটম্যান এডিশন) ঘড়িটি একটি আকর্ষণীয় পছন্দ। এর স্কেলেটন অ্যানালগ ডায়াল, লুমিনাস ডিজাইন, কোয়ার্টজ মুভমেন্ট এবং প্রিমিয়াম আর্টিফিশিয়াল লেদার স্ট্র্যাপ ঘড়িটিকে দিয়েছে স্মার্ট ও ইউনিক লুক। অফিস, পার্টি, ক্যাজুয়াল আউটিং এবং দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nঘড়ি: অ্যাপাচি ব্যাটম্যান স্পোর্টস সিরিজের স্কেলেটন অ্যানালগ ঘড়ি\n\nপণ্যের বৈশিষ্ট্য:\n\nঅ্যাপাচি ব্যাটম্যান স্পোর্টস সিরিজ\nস্কেলেটন অ্যানালগ ডায়াল\nকোয়ার্টজ মুভমেন্ট\nহার্ড মিনারেল গ্লাস\nঅরিজিনাল আর্টিফিশিয়াল লেদার স্ট্র্যাপ\n৪২ মিমি লুমিনাস ডায়াল\nএমবসড লক\nজিঙ্ক অ্যালয় ডায়াল কেস\nট্রান্সপারেন্ট গ্লাস ব্যাক\nস্টাইলিশ ও আরামদায়ক ডিজাইন\nঅফিস, পার্টি, ক্যাজুয়াল আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nকালার:\n\nব্ল্যাক\n\nনোট: আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 850,
+      "price": 750,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776676/ubi-shop/qee6kwm6uezhs3o6cptr.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783776676/ubi-shop/qee6kwm6uezhs3o6cptr.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776676/ubi-shop/qee6kwm6uezhs3o6cptr.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776757/ubi-shop/m5tbn6hv1hirt7l5sfay.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776783/ubi-shop/di3qqskzonfyric0cunn.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776799/ubi-shop/w0yrez2wq1ktvo8qks0y.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776794/ubi-shop/ahkl9fqhdrvfazwpaoc2.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783776676/ubi-shop/qee6kwm6uezhs3o6cptr.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783776757/ubi-shop/m5tbn6hv1hirt7l5sfay.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783776783/ubi-shop/di3qqskzonfyric0cunn.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783776799/ubi-shop/w0yrez2wq1ktvo8qks0y.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783776794/ubi-shop/ahkl9fqhdrvfazwpaoc2.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783776676/ubi-shop/qee6kwm6uezhs3o6cptr.jpg",
+      "mediaType": "image",
+      "views": 2,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783776679009,
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
       "id": 1783712983189,
       "category": "Bag's",
       "name": {
@@ -27,7 +371,7 @@ window.UBI_PUBLISHED_DATA = {
       "video": "",
       "media": "assets/products/1783712983189-main-8605bf3838043603.jpg",
       "mediaType": "image",
-      "views": 1,
+      "views": 2,
       "cartAdds": 0,
       "sold": 0,
       "createdAt": 1783712983189,
@@ -1110,7 +1454,7 @@ window.UBI_PUBLISHED_DATA = {
       "video": "",
       "media": "assets/products/1783678347062-main-bc803a479215aa33.jpg",
       "mediaType": "image",
-      "views": 0,
+      "views": 1,
       "cartAdds": 0,
       "sold": 0,
       "createdAt": 1783678347062,
@@ -2169,7 +2513,8 @@ window.UBI_PUBLISHED_DATA = {
     "Women's Fashion",
     "Couple",
     "Men's Fashion",
-    "Bag's"
+    "Bag's",
+    "Watch's"
   ],
   "deliverySettings": {
     "insideDhaka": 70,
@@ -2189,13 +2534,13 @@ window.UBI_PUBLISHED_DATA = {
   "customText": {},
   "app": "ubi-shop-full-website",
   "exportType": "publish-ready",
-  "publishedVersion": "20260710220001",
-  "savedAt": "2026-07-10T22:00:01.046Z",
+  "publishedVersion": "20260711162726",
+  "savedAt": "2026-07-11T16:27:26.110Z",
   "sourceExport": {
     "app": "ubi-shop-products",
     "exportType": "products-only",
-    "savedAt": "2026-07-10T21:34:33.811Z",
-    "file": "ubi-shop-products-2026-07-10 (6).json"
+    "savedAt": "2026-07-11T16:20:44.834Z",
+    "file": "ubi-shop-products-2026-07-11.json"
   },
   "optimizedAssets": {
     "type": "local-files",
