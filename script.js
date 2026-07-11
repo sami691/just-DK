@@ -21,7 +21,7 @@ const defaultProducts = [
 const text = {
   en: {
     navProducts: "Products", navOffers: "Offers", navContact: "Contact", cart: "Cart",
-    heroEyebrow: "Everything shop", heroTitle: "Ubi Shop", heroText: "Daily essentials, fashion, gadgets, beauty and home items in one mobile-friendly shop.",
+    heroEyebrow: "Everything shop", heroTitle: "Ubi Shop", heroText: "Daily essentials, fashion, gadgets, beauty and home items in one friendly shop.",
     shopNow: "Shop now", contactUs: "Contact us", trustDelivery: "Fast delivery", trustCod: "COD available", trustChat: "WhatsApp support", trustReturn: "Easy return",
     offerEyebrow: "Limited offer", offerTitle: "Flash deals for every basket", couponTitle: "Have a coupon?", couponText: "Enter your coupon code in the cart to get a discount.", featuredEyebrow: "Trending now", featuredTitle: "Hot and popular picks",
     recentEyebrow: "Recently viewed", recentTitle: "Pick up where you left off",
