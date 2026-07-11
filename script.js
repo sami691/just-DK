@@ -1336,8 +1336,27 @@ async function updateUploadPreview() {
   if (imageFile) {
     stagedImages.push(await fileToBestUrl(imageFile));
     $("#adminImageUpload").value = "";
+    showToast("Picture added");
   }
   renderStagedImages();
+}
+
+async function addPastedAdminImages(event) {
+  const dialog = $("#adminDialog");
+  if (!dialog?.open) return;
+  const files = [...(event.clipboardData?.files || [])].filter((file) => file.type.startsWith("image/"));
+  if (!files.length) return;
+  event.preventDefault();
+  showToast(files.length === 1 ? "Pasting picture..." : `Pasting ${files.length} pictures...`);
+  try {
+    for (const file of files) {
+      stagedImages.push(await fileToBestUrl(file));
+    }
+    renderStagedImages();
+    showToast(files.length === 1 ? "Pasted picture added" : `${files.length} pasted pictures added`);
+  } catch (error) {
+    console.error("Paste upload failed:", error);
+  }
 }
 
 function renderStagedImages() {
@@ -1641,6 +1660,7 @@ $("#adminReset").addEventListener("click", clearAdminForm);
 $("#addCategoryBtn").addEventListener("click", addNewCategory);
 $("#adminImageUpload").addEventListener("change", updateUploadPreview);
 $("#adminVideoUpload").addEventListener("change", updateUploadPreview);
+document.addEventListener("paste", addPastedAdminImages);
 $("#adminRegularPrice").addEventListener("input", updateAdminDiscountNote);
 $("#adminPrice").addEventListener("input", updateAdminDiscountNote);
 $("#adminSearch").addEventListener("input", renderAdminList);
