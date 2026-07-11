@@ -2531,15 +2531,15 @@ window.UBI_PUBLISHED_DATA = {
     "freeDeliveryAt": 2500,
     "couponCode": "UBI10",
     "couponPercent": 10,
-    "facebookUrl": "",
-    "instagramUrl": "",
-    "tiktokUrl": ""
+    "facebookUrl": "https://www.facebook.com/share/18ajcHgxbS/",
+    "instagramUrl": "https://www.instagram.com/ubishop.bd?igsh=MTU2bnJyaGMxaHpvYw==",
+    "tiktokUrl": "https://www.tiktok.com/@ubishop.bd?_r=1&_t=ZS-97wyJMrktQC"
   },
   "customText": {},
   "app": "ubi-shop-full-website",
   "exportType": "publish-ready",
-  "publishedVersion": "20260711171150",
-  "savedAt": "2026-07-11T17:11:50.618Z",
+  "publishedVersion": "20260711175705",
+  "savedAt": "2026-07-11T17:57:05.303Z",
   "sourceExport": {
     "app": "ubi-shop-products",
     "exportType": "products-only",
