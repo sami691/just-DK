@@ -93,6 +93,8 @@ let siteSettings = { ...defaultSiteSettings, ...JSON.parse(localStorage.getItem(
 let customText = JSON.parse(localStorage.getItem("ubi-custom-text") || "{}");
 let recentViews = JSON.parse(localStorage.getItem("ubi-recent-views") || "[]");
 let stagedImages = [];
+let adminImageBusy = false;
+const adminImageFingerprints = new Set();
 let couponApplied = false;
 localStorage.removeItem("ubi-coupon");
 let lastCartCount = 0;
@@ -1056,6 +1058,47 @@ function cloudinaryThumbUrl(src, size = 420) {
   return src.replace("/upload/", `/upload/f_auto,q_auto,c_fill,w_${size},h_${size}/`);
 }
 
+function fileFingerprint(file) {
+  return `${file.name || "pasted-image"}-${file.size}-${file.lastModified || 0}-${file.type}`;
+}
+
+async function addAdminImageFiles(files, sourceLabel = "selected") {
+  const imageFiles = [...files].filter((file) => file.type.startsWith("image/"));
+  if (!imageFiles.length || adminImageBusy) return;
+  adminImageBusy = true;
+  $("#imageDropZone")?.classList.add("uploading");
+  $("#imageDropHint").textContent = imageFiles.length === 1 ? "Uploading picture..." : `Uploading ${imageFiles.length} pictures...`;
+  showToast($("#imageDropHint").textContent);
+  let added = 0;
+  let skipped = 0;
+  try {
+    for (const file of imageFiles) {
+      const fingerprint = fileFingerprint(file);
+      if (adminImageFingerprints.has(fingerprint)) {
+        skipped++;
+        continue;
+      }
+      adminImageFingerprints.add(fingerprint);
+      const url = await fileToBestUrl(file);
+      if (url && !stagedImages.includes(url)) {
+        stagedImages.push(url);
+        added++;
+      } else {
+        skipped++;
+      }
+      renderStagedImages();
+    }
+    showToast(added ? `${added} ${sourceLabel} picture${added > 1 ? "s" : ""} added` : "This picture is already added");
+  } catch (error) {
+    console.error("Image upload failed:", error);
+  } finally {
+    adminImageBusy = false;
+    $("#imageDropZone")?.classList.remove("uploading", "drag-over");
+    $("#imageDropHint").textContent = "Paste or drop pictures here";
+    if (skipped && added) showToast(`${added} added, ${skipped} duplicate skipped`);
+  }
+}
+
 async function filesToDataUrls(files) {
   return Promise.all([...files].map(fileToDataUrl));
 }
@@ -1069,6 +1112,7 @@ function clearAdminForm() {
   $("#adminForm").reset();
   $("#adminId").value = "";
   stagedImages = [];
+  adminImageFingerprints.clear();
   renderAdminCategories();
   $("#adminFreeDelivery").checked = true;
   updateUploadPreview();
@@ -1261,6 +1305,7 @@ function editProduct(id) {
   $("#adminSizes").value = (item.sizes || []).join(", ");
   $("#adminFreeDelivery").checked = item.freeDelivery !== false;
   stagedImages = [...(item.images || [])];
+  adminImageFingerprints.clear();
   renderStagedImages();
   $("#videoPickNote").textContent = item.video ? t("selectedVideo").replace("{name}", "saved video") : "";
 }
@@ -1330,13 +1375,12 @@ async function saveProduct(event) {
 }
 
 async function updateUploadPreview() {
-  const imageFile = $("#adminImageUpload").files[0];
+  const imageFiles = [...$("#adminImageUpload").files];
   const videoFile = $("#adminVideoUpload").files[0];
   $("#videoPickNote").textContent = videoFile ? t("selectedVideo").replace("{name}", videoFile.name) : "";
-  if (imageFile) {
-    stagedImages.push(await fileToBestUrl(imageFile));
+  if (imageFiles.length) {
+    await addAdminImageFiles(imageFiles, "selected");
     $("#adminImageUpload").value = "";
-    showToast("Picture added");
   }
   renderStagedImages();
 }
@@ -1347,16 +1391,33 @@ async function addPastedAdminImages(event) {
   const files = [...(event.clipboardData?.files || [])].filter((file) => file.type.startsWith("image/"));
   if (!files.length) return;
   event.preventDefault();
-  showToast(files.length === 1 ? "Pasting picture..." : `Pasting ${files.length} pictures...`);
-  try {
-    for (const file of files) {
-      stagedImages.push(await fileToBestUrl(file));
-    }
-    renderStagedImages();
-    showToast(files.length === 1 ? "Pasted picture added" : `${files.length} pasted pictures added`);
-  } catch (error) {
-    console.error("Paste upload failed:", error);
+  await addAdminImageFiles(files, "pasted");
+}
+
+function handleAdminImageDrag(event) {
+  const dialog = $("#adminDialog");
+  if (!dialog?.open) return;
+  event.preventDefault();
+  $("#imageDropZone")?.classList.add("drag-over");
+  $("#imageDropHint").textContent = "Drop pictures to upload";
+}
+
+function clearAdminImageDrag(event) {
+  const dialog = $("#adminDialog");
+  if (!dialog?.open) return;
+  event.preventDefault();
+  if (!adminImageBusy) {
+    $("#imageDropZone")?.classList.remove("drag-over");
+    $("#imageDropHint").textContent = "Paste or drop pictures here";
   }
+}
+
+async function dropAdminImages(event) {
+  const dialog = $("#adminDialog");
+  if (!dialog?.open) return;
+  event.preventDefault();
+  $("#imageDropZone")?.classList.remove("drag-over");
+  await addAdminImageFiles(event.dataTransfer?.files || [], "dropped");
 }
 
 function renderStagedImages() {
@@ -1382,6 +1443,7 @@ function moveStagedImage(index, delta) {
 
 function removeStagedImage(index) {
   stagedImages.splice(index, 1);
+  adminImageFingerprints.clear();
   renderStagedImages();
 }
 
@@ -1661,6 +1723,9 @@ $("#addCategoryBtn").addEventListener("click", addNewCategory);
 $("#adminImageUpload").addEventListener("change", updateUploadPreview);
 $("#adminVideoUpload").addEventListener("change", updateUploadPreview);
 document.addEventListener("paste", addPastedAdminImages);
+["dragenter", "dragover"].forEach((eventName) => $("#imageDropZone").addEventListener(eventName, handleAdminImageDrag));
+["dragleave", "dragend"].forEach((eventName) => $("#imageDropZone").addEventListener(eventName, clearAdminImageDrag));
+$("#imageDropZone").addEventListener("drop", dropAdminImages);
 $("#adminRegularPrice").addEventListener("input", updateAdminDiscountNote);
 $("#adminPrice").addEventListener("input", updateAdminDiscountNote);
 $("#adminSearch").addEventListener("input", renderAdminList);

@@ -1515,6 +1515,38 @@ dialog::backdrop { background: rgba(0, 0, 0, .5); }
   grid-column: 1 / -1;
 }
 
+.upload-drop-zone {
+  border: 1px dashed color-mix(in srgb, var(--lime-dark) 45%, var(--line));
+  border-radius: 10px;
+  padding: 10px;
+  background: color-mix(in srgb, var(--lime) 8%, var(--panel));
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.paste-drop-hint {
+  display: grid;
+  place-items: center;
+  min-height: 52px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--lime-dark) 18%, var(--line));
+  color: var(--muted);
+  font-weight: 800;
+  background: color-mix(in srgb, var(--lime) 10%, transparent);
+}
+
+.upload-drop-zone.drag-over, .upload-drop-zone.uploading {
+  border-color: var(--lime-dark);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--lime) 22%, transparent), 0 12px 28px color-mix(in srgb, var(--lime-dark) 18%, transparent);
+  transform: translateY(-1px);
+}
+
+.upload-drop-zone.uploading .paste-drop-hint {
+  color: var(--ink);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--lime) 22%, transparent), color-mix(in srgb, var(--panel) 80%, transparent), color-mix(in srgb, var(--lime) 22%, transparent));
+  background-size: 220% 100%;
+  animation: shimmer 1.1s linear infinite;
+}
+
 .admin-preview-grid {
   display: grid;
   grid-template-columns: repeat(8, minmax(48px, 1fr));
