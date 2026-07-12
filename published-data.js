@@ -58,22 +58,22 @@ window.UBI_PUBLISHED_DATA = {
       "price": 600,
       "stock": 999,
       "stockStatus": "in",
-      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
-      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783856976/ubi-shop/qlztvxomshdh5xtlzguu.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783856976/ubi-shop/qlztvxomshdh5xtlzguu.png",
       "images": [
-        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
-        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785453/ubi-shop/i6qxzdg6ccly0gnic3fr.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783856976/ubi-shop/qlztvxomshdh5xtlzguu.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783856981/ubi-shop/imrvaaxqhkjguybyl2kw.png",
         "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785558/ubi-shop/xjsocnpb7iweom6igs36.png"
       ],
       "thumbnails": [
-        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
-        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785453/ubi-shop/i6qxzdg6ccly0gnic3fr.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783856976/ubi-shop/qlztvxomshdh5xtlzguu.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783856981/ubi-shop/imrvaaxqhkjguybyl2kw.png",
         "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783785558/ubi-shop/xjsocnpb7iweom6igs36.png"
       ],
       "video": "",
-      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783785517/ubi-shop/wqwrszewsokafl99qyzx.png",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783856976/ubi-shop/qlztvxomshdh5xtlzguu.png",
       "mediaType": "image",
-      "views": 0,
+      "views": 1,
       "cartAdds": 0,
       "sold": 0,
       "createdAt": 1783785565279,
@@ -123,7 +123,7 @@ window.UBI_PUBLISHED_DATA = {
       "sizes": [
         "Standard"
       ],
-      "freeDelivery": true
+      "freeDelivery": false
     },
     {
       "id": 1783784296489,
@@ -2538,7 +2538,7 @@ window.UBI_PUBLISHED_DATA = {
   "customText": {},
   "app": "ubi-shop-full-website",
   "exportType": "publish-ready",
-  "publishedVersion": "20260711175705",
+  "publishedVersion": "20260712115636",
   "savedAt": "2026-07-11T17:57:05.303Z",
   "sourceExport": {
     "app": "ubi-shop-products",
