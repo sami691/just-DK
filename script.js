@@ -477,6 +477,23 @@ function cartEntries() {
   }).filter((item) => item && item.qty > 0);
 }
 
+function trackMetaEvent(eventName, parameters = {}) {
+  if (typeof window.fbq !== "function") return;
+  window.fbq("track", eventName, parameters);
+}
+
+function metaProductData(product, quantity = 1) {
+  return {
+    content_ids: [String(product.id)],
+    content_name: product.name.en,
+    content_category: product.category,
+    content_type: "product",
+    value: Number(product.price) * quantity,
+    currency: "BDT",
+    num_items: quantity
+  };
+}
+
 function addToCart(id, color, size, qty = 1) {
   const product = products.find((item) => item.id === id);
   if (!product || !isAvailable(product)) return;
@@ -488,6 +505,7 @@ function addToCart(id, color, size, qty = 1) {
   cart[key] = cart[key] || { id, color: selectedColor, size: selectedSize, qty: 0 };
   cart[key].qty += amount;
   product.cartAdds = (product.cartAdds || 0) + amount;
+  trackMetaEvent("AddToCart", metaProductData(product, amount));
   saveState();
   renderCart();
   try {
@@ -831,6 +849,7 @@ function openProduct(id) {
   const item = products.find((product) => product.id === id);
   if (!item) return;
   renderProductDetail(item);
+  trackMetaEvent("ViewContent", metaProductData(item));
   item.views = (item.views || 0) + 1;
   rememberProduct(item.id);
   saveState();
@@ -1615,6 +1634,14 @@ function checkout() {
   ].filter(Boolean).map(encodeURIComponent).join("%0A");
   entries.forEach(({ product, qty }) => {
     if (product) product.sold = (product.sold || 0) + qty;
+  });
+  trackMetaEvent("InitiateCheckout", {
+    content_ids: entries.map(({ product }) => String(product.id)),
+    contents: entries.map(({ product, qty }) => ({ id: String(product.id), quantity: qty })),
+    content_type: "product",
+    value: Number(amount.total),
+    currency: "BDT",
+    num_items: entries.reduce((sum, { qty }) => sum + qty, 0)
   });
   saveState(true);
   renderProducts();
