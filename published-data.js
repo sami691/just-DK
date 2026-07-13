@@ -2,6 +2,474 @@ window.UBI_PUBLISHED_DATA = {
   "version": "2026-07-08T19:56:53.359Z",
   "products": [
     {
+      "id": 1783973612560,
+      "category": "Earbuds",
+      "name": {
+        "en": "M19 Earphone Bluetooth Wireless Headphones",
+        "bn": "M19 Earphone Bluetooth Wireless Headphones"
+      },
+      "description": {
+        "en": "Code:\n8475\n\nM19 Bluetooth Wireless Earphones\n\nThe M19 Bluetooth Wireless Earphones are multifunctional true wireless earbuds designed for music, calls, gaming, video streaming, travel, and everyday use. They feature Bluetooth 5.1 connectivity, low-latency performance, an LED battery display, smart noise reduction, a built-in flashlight, and a power bank function.\n\nPackage Includes:\n\n1 Pair of M19 Wireless Earbuds\n1 × 2000mAh Charging Case\n1 × USB Charging Cable\n1 × User Manual\n\nProduct Features:\n\nBluetooth 5.1 technology\nFast and stable wireless connection\nLow-latency mode for gaming and videos\nDigital LED battery display\nSmart environmental noise reduction\nTouch-control function\nBuilt-in flashlight\nPower bank function\nVoice assistant support\nSweat and light water-splash resistance\nComfortable in-ear design\nSuitable for sports, travel, outdoor activities, and daily use\n\nProduct Specifications:\n\nModel: M19\nBluetooth Version: Bluetooth 5.1\nEarbud Playtime: Approximately 4–6 hours\nCharging Case Capacity: 2000mAh\nWireless Range: Approximately 10 meters\nWater Resistance: IPX4\nNoise Control: Smart Environmental Noise Reduction\nAdditional Features: Flashlight and Power Bank Function\n\nAvailable Color:\n\nBlack\n\nNote: Battery life may vary depending on volume, connection, and usage. The earbuds are resistant to sweat and light water splashes but should not be fully submerged in water. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "M19 Bluetooth Wireless Earphones\n\nM19 Bluetooth Wireless Earphones একটি মাল্টিফাংশনাল ট্রু ওয়্যারলেস ইয়ারফোন। এতে রয়েছে Bluetooth 5.1 কানেকশন, লো-ল্যাটেন্সি মোড, LED ব্যাটারি ডিসপ্লে, নয়েজ রিডাকশন, ফ্ল্যাশলাইট এবং পাওয়ার ব্যাংক ফাংশন। গান শোনা, কল, গেমিং, ভিডিও দেখা, ভ্রমণ ও দৈনন্দিন ব্যবহারের জন্য এটি একটি ব্যবহারিক ও আধুনিক পছন্দ।\n\nপ্যাকেজে থাকছে:\n\n১ জোড়া M19 Wireless Earbuds\n১টি ২০০০ mAh চার্জিং কেস\n১টি USB চার্জিং কেবল\n১টি ইউজার ম্যানুয়াল\n\nপণ্যের বৈশিষ্ট্য:\n\nBluetooth 5.1 প্রযুক্তি\nদ্রুত ও স্থিতিশীল ওয়্যারলেস কানেকশন\nগেমিং ও ভিডিওর জন্য লো-ল্যাটেন্সি মোড\nচার্জিং কেসে ডিজিটাল LED ব্যাটারি ডিসপ্লে\nস্মার্ট নয়েজ রিডাকশন\nটাচ কন্ট্রোল সুবিধা\nবিল্ট-ইন ফ্ল্যাশলাইট\nপাওয়ার ব্যাংক হিসেবে ব্যবহারের সুবিধা\nভয়েস অ্যাসিস্ট্যান্ট সাপোর্ট\nঘাম ও হালকা পানির ছিটা প্রতিরোধী\nস্পোর্টস, ভ্রমণ ও আউটডোর ব্যবহারের জন্য উপযুক্ত\nআরামদায়ক ইন-ইয়ার ডিজাইন\n\nপণ্যের বিস্তারিত:\n\nমডেল: M19\nব্লুটুথ ভার্সন: Bluetooth 5.1\nইয়ারবাড প্লে-টাইম: প্রায় ৪–৬ ঘণ্টা\nচার্জিং কেস: ২০০০ mAh\nওয়্যারলেস রেঞ্জ: প্রায় ১০ মিটার\nওয়াটার রেজিস্ট্যান্স: IPX4\nনয়েজ কন্ট্রোল: স্মার্ট এনভায়রনমেন্টাল নয়েজ রিডাকশন\nঅতিরিক্ত ফিচার: ফ্ল্যাশলাইট ও পাওয়ার ব্যাংক ফাংশন\n\nকালার:\n\nব্ল্যাক\n\nনোট: ব্যাটারি ব্যাকআপ ভলিউম, কানেকশন ও ব্যবহারের ধরনের ওপর নির্ভর করে পরিবর্তিত হতে পারে। ইয়ারফোনটি ঘাম ও হালকা পানির ছিটা প্রতিরোধী, তবে পানিতে সম্পূর্ণ ডুবিয়ে ব্যবহার করা যাবে না। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 800,
+      "price": 699,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973399/ubi-shop/bl8cdjxpqin1sj9nhwrt.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973399/ubi-shop/bl8cdjxpqin1sj9nhwrt.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973399/ubi-shop/bl8cdjxpqin1sj9nhwrt.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973406/ubi-shop/zmy6mdsyhvllmtqqrs0z.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973412/ubi-shop/g7g1cmtavdehlb2wdscf.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973419/ubi-shop/bd5msuntmt2pjng8p2mw.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973426/ubi-shop/z5iwdim2gjo4bmu6fjhj.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973432/ubi-shop/tlior4sxh7uoy0pzzsyz.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973446/ubi-shop/ho0kia5ke3fmlxhd3fyq.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973399/ubi-shop/bl8cdjxpqin1sj9nhwrt.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973406/ubi-shop/zmy6mdsyhvllmtqqrs0z.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973412/ubi-shop/g7g1cmtavdehlb2wdscf.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973419/ubi-shop/bd5msuntmt2pjng8p2mw.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973426/ubi-shop/z5iwdim2gjo4bmu6fjhj.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973432/ubi-shop/tlior4sxh7uoy0pzzsyz.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973446/ubi-shop/ho0kia5ke3fmlxhd3fyq.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973399/ubi-shop/bl8cdjxpqin1sj9nhwrt.jpg",
+      "mediaType": "image",
+      "views": 0,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783973612560,
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783972764030,
+      "category": "Earbuds",
+      "name": {
+        "en": "A9 Pro App Supported ANC/ENC Display Touch Control Earbuds",
+        "bn": "A9 Pro App Supported ANC/ENC Display Touch Control Earbuds"
+      },
+      "description": {
+        "en": "Code:\n8184\n\nA9 Pro App Supported ANC/ENC Display Touch Control Earbuds\n\nThe A9 Pro Earbuds offer premium features at a budget-friendly price, including a smart touch-screen display, ANC and ENC noise reduction, and dedicated app support. Different functions can be controlled directly from the charging case display, so you do not need to take out your phone repeatedly. It is a modern and convenient choice for music, calls, gaming, travel, and everyday use.\n\nPackage Includes:\n\n1 Pair of A9 Pro Wireless Earbuds\n1 Charging Case with Smart Touch Display\n\nProduct Features:\n\nSmart touch-screen display\nANC active noise reduction\nENC call noise reduction\nDedicated app support\nControl multiple functions directly from the charging case\nClear calling experience\nDeep bass and rich sound\nSmart touch control\nFast and stable Bluetooth connection\nDigital battery-level display\nLong-lasting battery performance\nLightweight and comfortable in-ear design\nUnique, modern, and trendy appearance\nSuitable for music, calls, gaming, and everyday use\n\nModel:\n\nA9 Pro\n\nNoise Control:\n\nANC and ENC\n\nConnectivity:\n\nWireless Bluetooth\n\nAvailable Color:\n\nWhite\n\nNote: ANC and ENC performance may vary depending on the environment, earbud fit, and usage. Battery life may also vary depending on volume and usage. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "A9 Pro App Supported ANC/ENC Display Touch Control Earbuds\n\nবাজেটের মধ্যে প্রিমিয়াম ফিচারসমৃদ্ধ এই A9 Pro Earbuds-এ রয়েছে স্মার্ট টাচ স্ক্রিন ডিসপ্লে, ANC ও ENC নয়েজ রিডাকশন এবং ডেডিকেটেড অ্যাপ সাপোর্ট। চার্জিং কেসের ডিসপ্লে থেকেই বিভিন্ন ফাংশন নিয়ন্ত্রণ করা যায়, তাই বারবার ফোন বের করার প্রয়োজন হয় না। গান শোনা, কল, গেমিং, ভ্রমণ ও দৈনন্দিন ব্যবহারের জন্য এটি একটি আধুনিক ও ব্যবহারবান্ধব পছন্দ।\n\nপ্যাকেজে থাকছে:\n\n১ জোড়া A9 Pro Wireless Earbuds\n১টি স্মার্ট টাচ ডিসপ্লেসহ চার্জিং কেস\n\nপণ্যের বৈশিষ্ট্য:\n\nস্মার্ট টাচ স্ক্রিন ডিসপ্লে\nANC অ্যাকটিভ নয়েজ রিডাকশন\nENC কল নয়েজ রিডাকশন\nডেডিকেটেড অ্যাপ সাপোর্ট\nচার্জিং কেস থেকে বিভিন্ন ফাংশন নিয়ন্ত্রণ\nস্বচ্ছ ও পরিষ্কার কলিং অভিজ্ঞতা\nডিপ বেস ও সমৃদ্ধ সাউন্ড\nস্মার্ট টাচ কন্ট্রোল\nদ্রুত ও স্থিতিশীল ব্লুটুথ কানেকশন\nব্যাটারির চার্জ দেখার ডিজিটাল ডিসপ্লে\nলং-লাস্টিং ব্যাটারি পারফরম্যান্স\nহালকা ও আরামদায়ক ইন-ইয়ার ডিজাইন\nইউনিক, আধুনিক ও ট্রেন্ডি লুক\nগান, কল, গেমিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nমডেল:\n\nA9 Pro\n\nনয়েজ কন্ট্রোল:\n\nANC এবং ENC\n\nকানেক্টিভিটি:\n\nওয়্যারলেস ব্লুটুথ\n\nকালার:\n\nহোয়াইট\n\nনোট: ANC/ENC-এর কার্যকারিতা পরিবেশ, ইয়ারবাডের ফিটিং ও ব্যবহারের ধরনের ওপর নির্ভর করে পরিবর্তিত হতে পারে। ব্যাটারি ব্যাকআপ ভলিউম ও ব্যবহারের ওপর নির্ভরশীল। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 1500,
+      "price": 1390,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972628/ubi-shop/omopbsapzgbfw8g05jzq.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972628/ubi-shop/omopbsapzgbfw8g05jzq.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972628/ubi-shop/omopbsapzgbfw8g05jzq.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972643/ubi-shop/kfurosqke0opgia20bjd.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972648/ubi-shop/svcsvfwbtquwkgebf5ir.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972659/ubi-shop/pdfxssjledcpi6eawdnm.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972674/ubi-shop/c8ap7xyx3xmanhyujvh9.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972628/ubi-shop/omopbsapzgbfw8g05jzq.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972643/ubi-shop/kfurosqke0opgia20bjd.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972648/ubi-shop/svcsvfwbtquwkgebf5ir.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972659/ubi-shop/pdfxssjledcpi6eawdnm.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972674/ubi-shop/c8ap7xyx3xmanhyujvh9.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972628/ubi-shop/omopbsapzgbfw8g05jzq.png",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783972764030,
+      "colors": [
+        "White"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783972518846,
+      "category": "Earbuds",
+      "name": {
+        "en": "Q10 HiFi Stereo Sports Noise Reduction Earbuds (Two Pairs)",
+        "bn": "Q10 HiFi Stereo Sports Noise Reduction Earbuds (Two Pairs)"
+      },
+      "description": {
+        "en": "Code:\n3126\n\nQ10 HiFi Stereo Sports Noise Reduction Earbuds\n\nThe Q10 HiFi Stereo Sports Noise Reduction Earbuds come with two different styles of earbuds inside a single charging case. The set includes one pair of traditional in-ear earbuds and one pair of modern ear-clip or open-ear earbuds, giving you a total of four earbuds. With fast Bluetooth connectivity, a digital LED battery display, noise reduction, and touch controls, they are suitable for music, calls, gaming, workouts, and everyday use.\n\nPackage Includes:\n\n1 × Charging Case with Digital LED Display\n1 Pair of In-Ear Earbuds\n1 Pair of Ear-Clip or Open-Ear Earbuds\nTotal: 4 Wireless Earbuds\n\nProduct Features:\n\nTwo different earbud styles in one charging case\nFour wireless earbuds in total\nIn-ear and ear-clip/open-ear designs\nBluetooth 5.4 technology\nFast and stable wireless connectivity\nHiFi stereo sound\nNoise reduction for music and calls\nDigital LED battery-level display\nSmart touch-control function\nLow-latency connection for gaming\nSecure ear-clip fit for running, gym, and workouts\nPerfect for couples, friends, and shared use\nIPX4 protection against sweat and light water splashes\nPremium and modern design\nLong-lasting battery performance\n\nModel:\n\nQ10\n\nBluetooth Version:\n\nBluetooth 5.4\n\nWater Resistance:\n\nIPX4\n\nAvailable Color:\n\nWhite\n\nNote: The earbuds are resistant to sweat and light water splashes but should not be fully submerged in water. Battery life may vary depending on volume, connection, and usage. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "Q10 HiFi Stereo Sports Noise Reduction Earbuds\n\nQ10 HiFi Stereo Sports Noise Reduction Earbuds-এ একই চার্জিং কেসের মধ্যে রয়েছে দুই ধরনের মোট চারটি ইয়ারবাড। এক জোড়া সাধারণ ইন-ইয়ার ডিজাইনের এবং অন্য জোড়া ইয়ার-ক্লিপ বা ওপেন-ইয়ার ডিজাইনের। দ্রুত ব্লুটুথ কানেকশন, ডিজিটাল LED ব্যাটারি ডিসপ্লে, নয়েজ রিডাকশন এবং টাচ কন্ট্রোল সুবিধার কারণে গান শোনা, কল, গেমিং, জিম ও দৈনন্দিন ব্যবহারের জন্য এটি উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\n১টি ডিজিটাল ডিসপ্লেসহ চার্জিং কেস\n১ জোড়া ইন-ইয়ার ইয়ারবাড\n১ জোড়া ইয়ার-ক্লিপ বা ওপেন-ইয়ার ইয়ারবাড\nমোট ৪টি ইয়ারবাড\n\nপণ্যের বৈশিষ্ট্য:\n\nএকটি চার্জিং কেসে দুই ধরনের ইয়ারবাড\nমোট চারটি ওয়্যারলেস ইয়ারবাড\nইন-ইয়ার ও ইয়ার-ক্লিপ ডিজাইন\nBluetooth 5.4 প্রযুক্তি\nদ্রুত ও স্থিতিশীল ওয়্যারলেস কানেকশন\nHiFi স্টেরিও সাউন্ড\nকল ও গান শোনার সময় নয়েজ রিডাকশন\nডিজিটাল LED ব্যাটারি ডিসপ্লে\nটাচ কন্ট্রোল সুবিধা\nগেমিংয়ের জন্য লো-ল্যাটেন্সি কানেকশন\nজিম, দৌড় ও ওয়ার্কআউটের জন্য নিরাপদ ইয়ার-ক্লিপ ফিট\nকাপল, বন্ধু ও শেয়ার করে ব্যবহারের জন্য উপযুক্ত\nIPX4 ঘাম ও হালকা পানির ছিটা প্রতিরোধী\nপ্রিমিয়াম ও আধুনিক ডিজাইন\n\nমডেল:\n\nQ10\n\nব্লুটুথ ভার্সন:\n\nBluetooth 5.4\n\nওয়াটার রেজিস্ট্যান্স:\n\nIPX4\n\nকালার:\n\nহোয়াইট\n\nনোট: ইয়ারবাডটি ঘাম ও হালকা পানির ছিটা প্রতিরোধী, তবে সম্পূর্ণ পানিতে ডুবিয়ে ব্যবহার করা যাবে না। ব্যাটারি ব্যাকআপ ব্যবহারের ধরন, ভলিউম ও কানেকশনের ওপর নির্ভর করে পরিবর্তিত হতে পারে। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 1200,
+      "price": 1090,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972178/ubi-shop/fdjireyjgnyz97pxnbne.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972178/ubi-shop/fdjireyjgnyz97pxnbne.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972178/ubi-shop/fdjireyjgnyz97pxnbne.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972201/ubi-shop/zikr9amf4sne1c8wq08q.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972217/ubi-shop/ix2xduvsxfwzt58akbae.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972233/ubi-shop/awjnw9acsqi4htioktxm.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972263/ubi-shop/uy9yc8xq4tzdj183cq8j.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972278/ubi-shop/jyovuwioda3pwvwn1afm.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972292/ubi-shop/dp1hcxh6y06rribi6yqg.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972178/ubi-shop/fdjireyjgnyz97pxnbne.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972201/ubi-shop/zikr9amf4sne1c8wq08q.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972217/ubi-shop/ix2xduvsxfwzt58akbae.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972233/ubi-shop/awjnw9acsqi4htioktxm.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972263/ubi-shop/uy9yc8xq4tzdj183cq8j.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972278/ubi-shop/jyovuwioda3pwvwn1afm.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783972292/ubi-shop/dp1hcxh6y06rribi6yqg.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783972178/ubi-shop/fdjireyjgnyz97pxnbne.png",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783972518846,
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783971929241,
+      "category": "Speaker's",
+      "name": {
+        "en": "Mini Portable Bluetooth Speaker",
+        "bn": "Mini Portable Bluetooth Speaker"
+      },
+      "description": {
+        "en": "Code:\n4170\n\nMini Portable Bluetooth Speaker\n\nThis compact Mini Portable Bluetooth Speaker delivers wireless music in a lightweight and easy-to-carry design. Its built-in rechargeable battery, Bluetooth connectivity, LED indicator, and 10-meter wireless range make it suitable for home, travel, outdoor activities, and everyday use.\n\nPackage Includes:\n\n1 × Mini Portable Bluetooth Speaker\n\nProduct Features:\n\nCompact and portable design\nWireless music streaming through Bluetooth\nBuilt-in rechargeable battery\nUp to 10-meter wireless range\n10W RMS power output\nLED status indicator\nSimple power button control\nMicro USB charging port\nStrap attachment slot for easy carrying\nSuitable for home, travel, outings, and daily use\n\nProduct Specifications:\n\nPower Output: 10W RMS\nPower Source: Rechargeable Battery\nBattery Life: Approximately ¾ hour\nCharging Time: Approximately 2 hours\nBluetooth Version: 0.5\nWireless Range: Up to 10 meters\nCharging Port: Micro USB",
+        "bn": "মিনি পোর্টেবল ব্লুটুথ স্পিকার\n\nকমপ্যাক্ট ও হালকা ডিজাইনের এই মিনি পোর্টেবল ব্লুটুথ স্পিকারের মাধ্যমে সহজেই তারবিহীনভাবে গান উপভোগ করা যায়। বিল্ট-ইন রিচার্জেবল ব্যাটারি, ব্লুটুথ কানেকশন, LED ইন্ডিকেটর এবং ১০ মিটার পর্যন্ত ওয়্যারলেস রেঞ্জ থাকায় এটি বাসা, ভ্রমণ, আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\n১টি মিনি পোর্টেবল ব্লুটুথ স্পিকার\n\nপণ্যের বৈশিষ্ট্য:\n\nকমপ্যাক্ট ও পোর্টেবল ডিজাইন\nব্লুটুথের মাধ্যমে ওয়্যারলেস মিউজিক স্ট্রিমিং\nবিল্ট-ইন রিচার্জেবল ব্যাটারি\n১০ মিটার পর্যন্ত ওয়্যারলেস রেঞ্জ\n১০ ওয়াট RMS পাওয়ার আউটপুট\nLED স্ট্যাটাস ইন্ডিকেটর\nসহজ পাওয়ার বাটন কন্ট্রোল\nমাইক্রো USB চার্জিং পোর্ট\nসহজে বহনের জন্য স্ট্র্যাপ লাগানোর সুবিধা\nবাসা, ভ্রমণ, আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nপণ্যের বিস্তারিত:\n\nপাওয়ার আউটপুট: ১০ ওয়াট RMS\nপাওয়ার সোর্স: রিচার্জেবল ব্যাটারি\nব্যাটারি ব্যাকআপ: প্রায় ৪৫ মিনিট\nচার্জিং সময়: প্রায় ২ ঘণ্টা\nব্লুটুথ ভার্সন: ০.৫\nওয়্যারলেস রেঞ্জ: সর্বোচ্চ ১০ মিটার\nচার্জিং পোর্ট: মাইক্রো USB"
+      },
+      "regularPrice": 500,
+      "price": 399,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971906/ubi-shop/bklln29unwi7srwtqsw0.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971906/ubi-shop/bklln29unwi7srwtqsw0.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971906/ubi-shop/bklln29unwi7srwtqsw0.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971909/ubi-shop/e3dzz2bq3eta8egezlok.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971914/ubi-shop/yfr4phltksisljzpkr8g.webp",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971917/ubi-shop/z2na3vxcrl0diy29nlpy.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971924/ubi-shop/yznzidd2ofmvb02cwuhr.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971906/ubi-shop/bklln29unwi7srwtqsw0.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971909/ubi-shop/e3dzz2bq3eta8egezlok.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971914/ubi-shop/yfr4phltksisljzpkr8g.webp",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971917/ubi-shop/z2na3vxcrl0diy29nlpy.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971924/ubi-shop/yznzidd2ofmvb02cwuhr.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971906/ubi-shop/bklln29unwi7srwtqsw0.jpg",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783971929241,
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783971467152,
+      "category": "Speaker's",
+      "name": {
+        "en": "Touch Lamp Portable Bluetooth Speaker",
+        "bn": "টাচ ল্যাম্প পোর্টেবল ব্লুটুথ স্পিকার"
+      },
+      "description": {
+        "en": "Code:\n3019\n\nTouch Lamp Portable Bluetooth Speaker\n\nThis Touch Lamp Portable Bluetooth Speaker works as both a smart night lamp and a wireless speaker. Its touch-control system allows you to change the lighting easily. It features three brightness levels, warm white light with five additional colors, Bluetooth connectivity, TF/SD card support, and AUX input. Perfect for bedrooms, study tables, offices, travel, and gifting.\n\nPackage Includes:\n\n1 × Sensor Touch Lamp with Wireless Speaker\n1 × User Manual\n1 × AUX Cable\n1 × USB Charging Cable\n\nProduct Features:\n\nSmart touch color-changing mode\nThree brightness levels\nBluetooth version 4.1\nSupports TF/SD memory cards\nAUX input function\nWarm white light with five additional colors\nBuilt-in rechargeable battery\nPortable and easy to carry\nWorks as both a night lamp and a speaker\nSuitable for bedrooms, study tables, offices, and travel\n\nProduct Specifications:\n\nLamp Power: 1.6W\nSpeaker Output Power: 3W\nBluetooth Version: 4.1\nLighting Colors: Warm White with 5 additional colors\nBattery: Built-in 3.7V / 800mAh rechargeable Li-ion battery\nInput: DC 5V / 500mAh\nFrequency Response: 50Hz–20kHz\nCharging Time: Approximately 4 hours\nWorking Time: Up to approximately 10 hours\nWeight: Approximately 360g\n\nUsage Instructions:\n\nFully charge the device before first use\nBattery life may vary depending on brightness and volume levels\nKeep the device away from water and excessive moisture\nUse a charger with the correct voltage\n\nNote: Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "টাচ ল্যাম্প পোর্টেবল ব্লুটুথ স্পিকার\n\nএই টাচ ল্যাম্প পোর্টেবল ব্লুটুথ স্পিকারটি একই সঙ্গে স্মার্ট নাইট ল্যাম্প ও ওয়্যারলেস স্পিকার হিসেবে ব্যবহার করা যায়। টাচ কন্ট্রোলের মাধ্যমে সহজেই আলো পরিবর্তন করা যায়। এতে রয়েছে তিনটি ব্রাইটনেস লেভেল, উষ্ণ সাদা আলোসহ মোট ছয়টি কালার, ব্লুটুথ কানেকশন, TF/SD কার্ড ও AUX ইনপুট সুবিধা। বেডরুম, পড়ার টেবিল, অফিস, ভ্রমণ ও উপহার দেওয়ার জন্য এটি একটি সুন্দর ও ব্যবহারিক পছন্দ।\n\nপ্যাকেজে থাকছে:\n\n১টি সেন্সর টাচ ল্যাম্পসহ ওয়্যারলেস স্পিকার\n১টি ইউজার ম্যানুয়াল\n১টি AUX কেবল\n১টি USB চার্জিং কেবল\n\nপণ্যের বৈশিষ্ট্য:\n\nস্মার্ট টাচ কালার চেঞ্জিং মোড\nতিনটি ব্রাইটনেস লেভেল\nব্লুটুথ ভার্সন ৪.১\nTF/SD মেমোরি কার্ড সাপোর্ট\nAUX ইনপুট সুবিধা\nউষ্ণ সাদা আলোসহ আরও পাঁচটি কালার\nবিল্ট-ইন রিচার্জেবল ব্যাটারি\nপোর্টেবল ও সহজে বহনযোগ্য\nনাইট ল্যাম্প ও স্পিকার হিসেবে ব্যবহারযোগ্য\nবেডরুম, পড়ার টেবিল, অফিস ও ভ্রমণের জন্য উপযুক্ত\n\nপণ্যের বিস্তারিত:\n\nল্যাম্প পাওয়ার: ১.৬ ওয়াট\nস্পিকার আউটপুট পাওয়ার: ৩ ওয়াট\nব্লুটুথ ভার্সন: ৪.১\nআলোর রং: ওয়ার্ম হোয়াইটসহ মোট ৬টি কালার\nব্যাটারি: বিল্ট-ইন ৩.৭V / ৮০০mAh রিচার্জেবল লি-আয়ন ব্যাটারি\nইনপুট: DC ৫V / ৫০০mAh\nফ্রিকোয়েন্সি রেসপন্স: ৫০Hz–২০kHz\nচার্জিং সময়: প্রায় ৪ ঘণ্টা\nব্যবহারের সময়: সর্বোচ্চ প্রায় ১০ ঘণ্টা\nওজন: প্রায় ৩৬০ গ্রাম\n\nব্যবহারের নির্দেশনা:\n\nপ্রথমবার ব্যবহারের আগে ডিভাইসটি সম্পূর্ণ চার্জ করে নিন\nব্যাটারির স্থায়িত্ব আলো ও ভলিউমের মাত্রার ওপর নির্ভর করবে\nডিভাইসটি পানি ও অতিরিক্ত আর্দ্রতা থেকে দূরে রাখুন\nসঠিক ভোল্টেজের চার্জার ব্যবহার করুন\n\nনোট: আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 800,
+      "price": 699,
+      "stock": 999,
+      "stockStatus": "in",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971289/ubi-shop/xru2vhnvbails2di0m6z.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971289/ubi-shop/xru2vhnvbails2di0m6z.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971289/ubi-shop/xru2vhnvbails2di0m6z.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971309/ubi-shop/g14liywdrqablrykfolu.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971317/ubi-shop/wzintltvabcqni6j7jcz.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971323/ubi-shop/zuz2e2xekgjlen92tibp.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971329/ubi-shop/qmiuiwkz7dou9pgayy0k.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971335/ubi-shop/dxdroy4dc4eashapyoon.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971342/ubi-shop/u31obqbkak9oj2vbyv7s.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971289/ubi-shop/xru2vhnvbails2di0m6z.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971309/ubi-shop/g14liywdrqablrykfolu.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971317/ubi-shop/wzintltvabcqni6j7jcz.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971323/ubi-shop/zuz2e2xekgjlen92tibp.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971329/ubi-shop/qmiuiwkz7dou9pgayy0k.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971335/ubi-shop/dxdroy4dc4eashapyoon.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783971342/ubi-shop/u31obqbkak9oj2vbyv7s.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783971289/ubi-shop/xru2vhnvbails2di0m6z.png",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783971467152,
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "freeDelivery": false
+    },
+    {
+      "id": 1783970666860,
+      "category": "Men's Fashion",
+      "name": {
+        "en": "World Cup Mash T-Shirt and Short Pant Set",
+        "bn": "ওয়ার্ল্ড কাপ ম্যাশ টি-শার্ট অ্যান্ড শর্ট প্যান্ট সেট"
+      },
+      "description": {
+        "en": "B-SKU: 29981\nW-SKU: 29982\n\nWorld Cup Mash T-Shirt and Short Pant Set\n\nThis World Cup Mash T-Shirt and Short Pant Set is made from 160 GSM mash fabric. The soft, lightweight, and breathable material provides a comfortable fit, while the sporty design gives the outfit a stylish look. Perfect for sports, exercise, travel, outings, and everyday casual wear.\n\nPackage Includes:\n\nT-Shirt: Half-sleeve mash T-shirt with a sporty design\nShort Pant: Matching short pant with an elastic waistband\n\nProduct Features:\n\nHigh-quality mash fabric\n160 GSM fabric\nSoft, lightweight, and comfortable\nRound-neck and half-sleeve design\nComfortable and sporty fitting\nElastic waistband short pant\nFully ready-made two-piece set\nSuitable for sports, exercise, travel, outings, and daily use\n\nAvailable Sizes and Measurements:\n\nM: Chest 38 inches | T-Shirt Length 28 inches | Pant Waist 28–30 inches\nL: Chest 40 inches | T-Shirt Length 29 inches | Pant Waist 31–33 inches\nXL: Chest 42 inches | T-Shirt Length 30 inches | Pant Waist 34–36 inches\n\nAvailable Colors:\n\nBlack\nWhite\n\nNote: Please check the size measurements carefully before placing your order. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "ওয়ার্ল্ড কাপ ম্যাশ টি-শার্ট অ্যান্ড শর্ট প্যান্ট সেট\n\n১৬০ জিএসএম ম্যাশ ফেব্রিক দিয়ে তৈরি এই ওয়ার্ল্ড কাপ টি-শার্ট ও শর্ট প্যান্ট সেটটি নরম, হালকা এবং আরামদায়ক। স্পোর্টি ডিজাইন ও কমফোর্টেবল ফিটিংয়ের কারণে খেলাধুলা, ব্যায়াম, ভ্রমণ, আউটিং এবং দৈনন্দিন ক্যাজুয়াল ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nটি-শার্ট: স্পোর্টি ডিজাইনের হাফ-স্লিভ ম্যাশ টি-শার্ট\nশর্ট প্যান্ট: ইলাস্টিক কোমরযুক্ত ম্যাচিং শর্ট প্যান্ট\n\nপণ্যের বৈশিষ্ট্য:\n\nউন্নত মানের ম্যাশ ফেব্রিক\n১৬০ জিএসএম ফেব্রিক\nনরম, হালকা ও আরামদায়ক\nরাউন্ড নেক ও হাফ-স্লিভ ডিজাইন\nআরামদায়ক ও স্পোর্টি ফিটিং\nইলাস্টিক কোমরযুক্ত শর্ট প্যান্ট\nসম্পূর্ণ রেডিমেড টু-পিস সেট\nখেলাধুলা, ব্যায়াম, ভ্রমণ, আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nসাইজ ও মাপ:\n\nM: বুক ৩৮ ইঞ্চি | টি-শার্টের লম্বা ২৮ ইঞ্চি | প্যান্টের কোমর ২৮–৩০ ইঞ্চি\nL: বুক ৪০ ইঞ্চি | টি-শার্টের লম্বা ২৯ ইঞ্চি | প্যান্টের কোমর ৩১–৩৩ ইঞ্চি\nXL: বুক ৪২ ইঞ্চি | টি-শার্টের লম্বা ৩০ ইঞ্চি | প্যান্টের কোমর ৩৪–৩৬ ইঞ্চি\n\nকালার:\n\nব্ল্যাক\nহোয়াইট\n\nনোট: অর্ডার করার আগে সাইজের মাপ ভালোভাবে মিলিয়ে নিন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 750,
+      "price": 550,
+      "stock": 999,
+      "stockStatus": "limited",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783970498/ubi-shop/gv0sfxjnarswxecysrm9.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783970498/ubi-shop/gv0sfxjnarswxecysrm9.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783970498/ubi-shop/gv0sfxjnarswxecysrm9.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783970502/ubi-shop/tqx9dlzz7mxknvwtjuv2.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783970498/ubi-shop/gv0sfxjnarswxecysrm9.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783970502/ubi-shop/tqx9dlzz7mxknvwtjuv2.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783970498/ubi-shop/gv0sfxjnarswxecysrm9.jpg",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783970666860,
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "freeDelivery": true
+    },
+    {
+      "id": 1783957033499,
+      "category": "Men's Fashion",
+      "name": {
+        "en": "World Cup Mash T-Shirt and Short Pant Set",
+        "bn": "ওয়ার্ল্ড কাপ ম্যাশ টি-শার্ট অ্যান্ড শর্ট প্যান্ট সেট"
+      },
+      "description": {
+        "en": "B-SKU: 30217\nW-SKU: 30215\n\nWorld Cup Mash T-Shirt and Short Pant Set\n\nThis World Cup T-Shirt and Short Pant Set is made from 160 GSM mash fabric. The soft, lightweight, and comfortable material, along with its sporty design and relaxed fit, makes it perfect for sports, exercise, travel, outings, and everyday casual wear.\n\nPackage Includes:\n\nT-Shirt: Half-sleeve mash T-shirt with a sporty design\nShort Pant: Matching short pant with an elastic waistband\n\nProduct Features:\n\nHigh-quality mash fabric\n160 GSM fabric\nSoft, lightweight, and comfortable\nHalf-sleeve and round-neck design\nComfortable and sporty fitting\nShort pant with elastic waistband\nFully ready-made two-piece set\nSuitable for sports, exercise, outings, and daily use\n\nAvailable Sizes and Measurements:\n\nM: Chest 38 inches | T-Shirt Length 28 inches | Pant Waist 28–30 inches\nL: Chest 40 inches | T-Shirt Length 29 inches | Pant Waist 31–33 inches\nXL: Chest 42 inches | T-Shirt Length 30 inches | Pant Waist 34–36 inches\n\nAvailable Colors:\n\nWhite T-Shirt with Black Short Pant\nBlack T-Shirt with Black Short Pant\n\nNote: Please check the size measurements carefully before placing your order. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "ওয়ার্ল্ড কাপ ম্যাশ টি-শার্ট অ্যান্ড শর্ট প্যান্ট সেট\n\n১৬০ জিএসএম ম্যাশ ফেব্রিক দিয়ে তৈরি এই ওয়ার্ল্ড কাপ টি-শার্ট ও শর্ট প্যান্ট সেটটি নরম, হালকা এবং আরামদায়ক। স্পোর্টি ডিজাইন ও কমফোর্টেবল ফিটিংয়ের কারণে খেলাধুলা, ব্যায়াম, ভ্রমণ, আউটিং এবং দৈনন্দিন ক্যাজুয়াল ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nটি-শার্ট: স্পোর্টি ডিজাইনের হাফ-স্লিভ ম্যাশ টি-শার্ট\nশর্ট প্যান্ট: ইলাস্টিক কোমরযুক্ত ম্যাচিং শর্ট প্যান্ট\n\nপণ্যের বৈশিষ্ট্য:\n\nউন্নত মানের ম্যাশ ফেব্রিক\n১৬০ জিএসএম ফেব্রিক\nনরম, হালকা ও আরামদায়ক\nহাফ-স্লিভ ও রাউন্ড নেক ডিজাইন\nআরামদায়ক ও স্পোর্টি ফিটিং\nইলাস্টিক কোমরযুক্ত শর্ট প্যান্ট\nসম্পূর্ণ রেডিমেড টু-পিস সেট\nখেলাধুলা, ব্যায়াম, আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nসাইজ ও মাপ:\n\nM: বুক ৩৮ ইঞ্চি | টি-শার্টের লম্বা ২৮ ইঞ্চি | প্যান্টের কোমর ২৮–৩০ ইঞ্চি\nL: বুক ৪০ ইঞ্চি | টি-শার্টের লম্বা ২৯ ইঞ্চি | প্যান্টের কোমর ৩১–৩৩ ইঞ্চি\nXL: বুক ৪২ ইঞ্চি | টি-শার্টের লম্বা ৩০ ইঞ্চি | প্যান্টের কোমর ৩৪–৩৬ ইঞ্চি\n\nকালার:\n\nহোয়াইট টি-শার্ট ও ব্ল্যাক শর্ট প্যান্ট\nব্ল্যাক টি-শার্ট ও ব্ল্যাক শর্ট প্যান্ট\n\nনোট: অর্ডার করার আগে সাইজের মাপ ভালোভাবে মিলিয়ে নিন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 700,
+      "price": 550,
+      "stock": 999,
+      "stockStatus": "limited",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956295/ubi-shop/hrgbn6j8ypkryai7tmw7.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783956295/ubi-shop/hrgbn6j8ypkryai7tmw7.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956295/ubi-shop/hrgbn6j8ypkryai7tmw7.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956291/ubi-shop/kthtka7elgvid4vi9alu.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783956295/ubi-shop/hrgbn6j8ypkryai7tmw7.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783956291/ubi-shop/kthtka7elgvid4vi9alu.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956295/ubi-shop/hrgbn6j8ypkryai7tmw7.jpg",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783957033500,
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "freeDelivery": true
+    },
+    {
+      "id": 1783956236907,
+      "category": "Men's Fashion",
+      "name": {
+        "en": "World Cup Embroidery Jersey",
+        "bn": "ওয়ার্ল্ড কাপ এমব্রয়ডারি জার্সি"
+      },
+      "description": {
+        "en": "W-SKU: 30111\nB-SKU: 30112\n\nWorld Cup Embroidery Jersey\n\nThis premium World Cup Embroidery Jersey is made from high-quality China mesh fabric. The embroidered logo and branding, accurate measurements, and comfortable fit give it a stylish and sporty appearance. Perfect for watching matches, sports activities, outings, casual wear, and everyday use.\n\nPackage Includes:\n\nJersey: World Cup Jersey with embroidered logo and branding\n\nProduct Features:\n\nHigh-quality China mesh fabric\nEmbroidered logo and branding\nSoft, lightweight, and comfortable\nAccurate size measurements\nComfortable fitting\nShort sleeves and round neck design\nStylish and sporty appearance\nSuitable for sports, outings, casual wear, and daily use\n\nAvailable Sizes and Measurements:\n\nM: Chest 38 inches | Length 27 inches\nL: Chest 40 inches | Length 28 inches\nXL: Chest 42 inches | Length 29 inches\nXXL: Chest 44 inches | Length 30 inches\n\nAvailable Designs:\n\nWhite and Sky Blue Stripe\nBlack and Blue Printed Design\n\nNote: Please check the size measurements carefully before placing your order. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "ওয়ার্ল্ড কাপ এমব্রয়ডারি জার্সি\n\nউন্নত মানের চায়না ম্যাশ ফেব্রিক দিয়ে তৈরি এই প্রিমিয়াম ওয়ার্ল্ড কাপ এমব্রয়ডারি জার্সিটিতে রয়েছে এমব্রয়ডারি করা লোগো ও ব্র্যান্ডিং। সঠিক সাইজ মেজারমেন্ট, আরামদায়ক ফিটিং এবং স্টাইলিশ স্পোর্টি ডিজাইনের কারণে এটি খেলা দেখা, খেলাধুলা, আউটিং, ক্যাজুয়াল ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nজার্সি: এমব্রয়ডারি করা লোগো ও ব্র্যান্ডিংসহ ওয়ার্ল্ড কাপ জার্সি\n\nপণ্যের বৈশিষ্ট্য:\n\nউন্নত মানের চায়না ম্যাশ ফেব্রিক\nএমব্রয়ডারি করা লোগো ও ব্র্যান্ডিং\nনরম, হালকা ও আরামদায়ক\nসঠিক সাইজ মেজারমেন্ট\nআরামদায়ক ফিটিং\nহাফ স্লিভ ও রাউন্ড নেক ডিজাইন\nস্টাইলিশ ও স্পোর্টি লুক\nখেলাধুলা, আউটিং, ক্যাজুয়াল ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nসাইজ ও মাপ:\n\nM: বুক ৩৮ ইঞ্চি | লম্বা ২৭ ইঞ্চি\nL: বুক ৪০ ইঞ্চি | লম্বা ২৮ ইঞ্চি\nXL: বুক ৪২ ইঞ্চি | লম্বা ২৯ ইঞ্চি\nXXL: বুক ৪৪ ইঞ্চি | লম্বা ৩০ ইঞ্চি\n\nডিজাইন:\n\nহোয়াইট ও স্কাই ব্লু স্ট্রাইপ\nব্ল্যাক ও ব্লু প্রিন্টেড ডিজাইন\n\nনোট: অর্ডার করার আগে সাইজ মেজারমেন্ট ভালোভাবে মিলিয়ে নিন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 500,
+      "price": 400,
+      "stock": 999,
+      "stockStatus": "limited",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956078/ubi-shop/xf3x4nswiy0zjrjtyqsi.png",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783956078/ubi-shop/xf3x4nswiy0zjrjtyqsi.png",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956078/ubi-shop/xf3x4nswiy0zjrjtyqsi.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956082/ubi-shop/k3xoui0wwmfqpoudvmp5.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783956078/ubi-shop/xf3x4nswiy0zjrjtyqsi.png",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783956082/ubi-shop/k3xoui0wwmfqpoudvmp5.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783956078/ubi-shop/xf3x4nswiy0zjrjtyqsi.png",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783956236908,
+      "colors": [
+        "White Sky",
+        "Black Blue"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "freeDelivery": true
+    },
+    {
+      "id": 1783956042963,
+      "category": "Men's Fashion",
+      "name": {
+        "en": "Super Premium World Cup Jersey",
+        "bn": "Super Premium World Cup Jersey"
+      },
+      "description": {
+        "en": "SKU: 29991\n\nSuper Premium World Cup Jersey\n\nThis 100% super premium-quality World Cup Jersey is made from high-quality China mesh fabric. The attractive white and sky-blue striped design, original China sticker logos, and comfortable fitting give it a stylish and sporty look. Perfect for watching matches, sports activities, outings, casual wear, and everyday use.\n\nPackage Includes:\n\nJersey: Super premium World Cup Jersey made from China mesh fabric\n\nProduct Features:\n\n100% super premium quality\nHigh-quality China mesh fabric\nOriginal China sticker logos and branding\nSoft, lightweight, and comfortable\nAccurate size measurements\nComfortable fitting\nShort sleeves and round neck design\nStylish and sporty appearance\nSuitable for sports, outings, casual wear, and daily use\n\nAvailable Sizes and Measurements:\n\nM: Chest 38 inches | Length 27 inches\nL: Chest 40 inches | Length 28 inches\nXL: Chest 42 inches | Length 29 inches\nXXL: Chest 44 inches | Length 30 inches\n\nAvailable Color:\n\nWhite and Sky Blue\n\nNote: Please check the size measurements carefully before placing your order. Actual product color may vary slightly due to lighting and screen display settings.",
+        "bn": "সুপার প্রিমিয়াম ওয়ার্ল্ড কাপ জার্সি\n\n১০০% সুপার প্রিমিয়াম কোয়ালিটির এই ওয়ার্ল্ড কাপ জার্সিটি উন্নত মানের চায়না ম্যাশ ফেব্রিক দিয়ে তৈরি। আকর্ষণীয় হোয়াইট ও স্কাই ব্লু স্ট্রাইপ ডিজাইন, চায়না স্টিকার লোগো এবং আরামদায়ক ফিটিং জার্সিটিকে দিয়েছে স্টাইলিশ ও স্পোর্টি লুক। খেলা দেখা, আউটিং, স্পোর্টস, ক্যাজুয়াল ব্যবহার ও দৈনন্দিন পরিধানের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nজার্সি: চায়না ম্যাশ ফেব্রিকের তৈরি সুপার প্রিমিয়াম ওয়ার্ল্ড কাপ জার্সি\n\nপণ্যের বৈশিষ্ট্য:\n\n১০০% সুপার প্রিমিয়াম কোয়ালিটি\nউন্নত মানের চায়না ম্যাশ ফেব্রিক\nঅরিজিনাল চায়না স্টিকার লোগো ও ব্র্যান্ডিং\nহালকা, নরম ও আরামদায়ক\nসঠিক সাইজ মেজারমেন্ট\nকমফোর্টেবল ফিটিং\nহাফ স্লিভ ও রাউন্ড নেক ডিজাইন\nস্পোর্টি ও আকর্ষণীয় লুক\nখেলা, আউটিং ও ক্যাজুয়াল ব্যবহারের জন্য উপযুক্ত\n\nসাইজ ও মাপ:\n\nM: বুক ৩৮ ইঞ্চি | লম্বা ২৭ ইঞ্চি\nL: বুক ৪০ ইঞ্চি | লম্বা ২৮ ইঞ্চি\nXL: বুক ৪২ ইঞ্চি | লম্বা ২৯ ইঞ্চি\nXXL: বুক ৪৪ ইঞ্চি | লম্বা ৩০ ইঞ্চি\n\nকালার:\n\nহোয়াইট ও স্কাই ব্লু\n\nনোট: অর্ডার করার আগে সাইজ মেজারমেন্ট ভালোভাবে মিলিয়ে নিন। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 600,
+      "price": 500,
+      "stock": 999,
+      "stockStatus": "limited",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955848/ubi-shop/uhyexgei0dt2n6cov1ll.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955848/ubi-shop/uhyexgei0dt2n6cov1ll.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955848/ubi-shop/uhyexgei0dt2n6cov1ll.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783973737/ubi-shop/lkukdcsrrkofj0ykez1q.png"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955848/ubi-shop/uhyexgei0dt2n6cov1ll.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783973737/ubi-shop/lkukdcsrrkofj0ykez1q.png"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955848/ubi-shop/uhyexgei0dt2n6cov1ll.jpg",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783956042963,
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "freeDelivery": true
+    },
+    {
+      "id": 1783955708510,
+      "category": "Men's Fashion",
+      "name": {
+        "en": "ACID WASH DROP SHOULDER T-SHIRT",
+        "bn": "ACID WASH DROP SHOULDER T-SHIRT"
+      },
+      "description": {
+        "en": "B-SKU: 29945\nBE-SKU: 29943\nM-SKU: 29944\nG-SKU: 29946\nP-SKU: 29947\n\nACID WASH DROP SHOULDER T-SHIRT\n\nThis premium Acid Wash Drop Shoulder T-Shirt features a trendy vintage finish with a relaxed oversized fit. Made from heavyweight 240+ GSM fabric, it feels soft, durable, and comfortable throughout the day. The high-quality DTF chest print and classic crew neck make it perfect for streetwear, casual outings, travel, and everyday use.\n\nPackage Includes:\n\nT-Shirt: Acid wash drop shoulder T-shirt with high-quality DTF print\n\nProduct Features:\n\nHigh-quality DTF print\nTrendy acid wash finish\nUnique vintage appearance\nDrop shoulder design\nRelaxed oversized fit\nHeavyweight 240+ GSM fabric\nSoft, durable, and premium feel\nClassic crew neck\nShort sleeves\nPerfect for streetwear, casual outfits, outings, and daily wear\n\nAvailable Sizes:\n\nM: Chest 40 inches | Length 27 inches\nL: Chest 42 inches | Length 28 inches\nXL: Chest 44 inches | Length 29 inches\n\nAvailable Colors:\n\nBeige\nMaroon\nBlack\nGreen\nPurple\n\nNote: Each acid wash T-shirt may have slight variations in shade and wash pattern, making every piece unique. Actual product color may also vary slightly due to lighting and screen display settings.",
+        "bn": "অ্যাসিড ওয়াশ ড্রপ শোল্ডার টি-শার্ট\n\nপ্রিমিয়াম মানের এই অ্যাসিড ওয়াশ ড্রপ শোল্ডার টি-শার্টটিতে রয়েছে ট্রেন্ডি ভিনটেজ ফিনিশ ও রিল্যাক্সড ওভারসাইজড ফিট। ২৪০+ জিএসএম হেভিওয়েট ফেব্রিক দিয়ে তৈরি হওয়ায় এটি নরম, টেকসই ও আরামদায়ক। উচ্চমানের DTF প্রিন্ট ও ক্লাসিক ক্রু নেক ডিজাইনের এই টি-শার্টটি স্ট্রিটওয়্যার, ক্যাজুয়াল আউটিং, ভ্রমণ ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত।\n\nপ্যাকেজে থাকছে:\n\nটি-শার্ট: উচ্চমানের DTF প্রিন্টসহ অ্যাসিড ওয়াশ ড্রপ শোল্ডার টি-শার্ট\n\nপণ্যের বৈশিষ্ট্য:\n\nউচ্চমানের DTF প্রিন্ট\nট্রেন্ডি অ্যাসিড ওয়াশ ফিনিশ\nইউনিক ভিনটেজ লুক\nড্রপ শোল্ডার ডিজাইন\nরিল্যাক্সড ওভারসাইজড ফিট\n২৪০+ জিএসএম হেভিওয়েট ফেব্রিক\nনরম, টেকসই ও প্রিমিয়াম অনুভূতি\nক্লাসিক ক্রু নেক\nহাফ স্লিভ\nস্ট্রিটওয়্যার, ক্যাজুয়াল আউটিং ও দৈনন্দিন ব্যবহারের জন্য উপযুক্ত\n\nসাইজ ও মাপ:\n\nM: বুক ৪০ ইঞ্চি | লম্বা ২৭ ইঞ্চি\nL: বুক ৪২ ইঞ্চি | লম্বা ২৮ ইঞ্চি\nXL: বুক ৪৪ ইঞ্চি | লম্বা ২৯ ইঞ্চি\n\nকালার:\n\nবেইজ\nমেরুন\nব্ল্যাক\nগ্রিন\nপার্পল\n\nনোট: অ্যাসিড ওয়াশের কারণে প্রতিটি টি-শার্টের রং ও ওয়াশ প্যাটার্নে সামান্য পার্থক্য থাকতে পারে। আলো ও স্ক্রিনের সেটিংসের কারণে পণ্যের আসল রং ছবির তুলনায় সামান্য ভিন্ন হতে পারে।"
+      },
+      "regularPrice": 700,
+      "price": 500,
+      "stock": 999,
+      "stockStatus": "limited",
+      "image": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955500/ubi-shop/egbrvezlgqaeaosd2at5.jpg",
+      "thumbnail": "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955500/ubi-shop/egbrvezlgqaeaosd2at5.jpg",
+      "images": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955500/ubi-shop/egbrvezlgqaeaosd2at5.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955505/ubi-shop/bftuarzm5cl7zapkglg8.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955510/ubi-shop/gya2k77xgj9q7a0mzals.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955516/ubi-shop/meaosddnc1zarfjmkhcc.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955522/ubi-shop/dcexgikvnkpxuoxrfdxy.jpg"
+      ],
+      "thumbnails": [
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955500/ubi-shop/egbrvezlgqaeaosd2at5.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955505/ubi-shop/bftuarzm5cl7zapkglg8.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955510/ubi-shop/gya2k77xgj9q7a0mzals.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955516/ubi-shop/meaosddnc1zarfjmkhcc.jpg",
+        "https://res.cloudinary.com/dtyoqvey6/image/upload/f_auto,q_auto,c_fill,w_420,h_420/v1783955522/ubi-shop/dcexgikvnkpxuoxrfdxy.jpg"
+      ],
+      "video": "",
+      "media": "https://res.cloudinary.com/dtyoqvey6/image/upload/v1783955500/ubi-shop/egbrvezlgqaeaosd2at5.jpg",
+      "mediaType": "image",
+      "views": 1,
+      "cartAdds": 0,
+      "sold": 0,
+      "createdAt": 1783955708511,
+      "colors": [
+        "Black",
+        "Beige",
+        "Maroon",
+        "Green",
+        "Purple"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "freeDelivery": true
+    },
+    {
       "id": 1783786296142,
       "category": "Watch's",
       "name": {
@@ -472,7 +940,7 @@ window.UBI_PUBLISHED_DATA = {
       "video": "",
       "media": "assets/products/1783710961008-main-ea4217564dac04ee.jpg",
       "mediaType": "image",
-      "views": 0,
+      "views": 1,
       "cartAdds": 0,
       "sold": 0,
       "createdAt": 1783710961009,
@@ -2518,7 +2986,9 @@ window.UBI_PUBLISHED_DATA = {
     "Couple",
     "Men's Fashion",
     "Bag's",
-    "Watch's"
+    "Watch's",
+    "Speaker's",
+    "Earbuds"
   ],
   "deliverySettings": {
     "insideDhaka": 70,
@@ -2538,7 +3008,7 @@ window.UBI_PUBLISHED_DATA = {
   "customText": {},
   "app": "ubi-shop-full-website",
   "exportType": "publish-ready",
-  "publishedVersion": "20260712115636",
+  "publishedVersion": "20260713203539",
   "savedAt": "2026-07-11T17:57:05.303Z",
   "sourceExport": {
     "app": "ubi-shop-products",
