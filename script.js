@@ -914,7 +914,7 @@ function renderProductDetail(item) {
           <h3>${t("productInfo")}</h3>
           <p class="detail-desc">${description.replace(/\n/g, "<br>")}</p>
         </article>
-        <p>${stockText(item)} · ${t("statViews")}: ${item.views || 0} · ${t("statSold")}: ${item.sold || 0}</p>
+        <p>${stockText(item)}</p>
         <div class="product-options">
           <strong>${t("color")}</strong>
           <div class="option-row">${colors.map((color, index) => `<button class="option-pill ${index === 0 ? "active" : ""}" type="button" data-option="color" data-value="${escapeHtml(color)}" onclick="selectProductOption(this)">${escapeHtml(color)}</button>`).join("")}</div>
